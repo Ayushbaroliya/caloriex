@@ -8,10 +8,20 @@ const rawLabel = document.querySelector("#rawLabel");
 const cookedLabel = document.querySelector("#cookedLabel");
 
 let selectedType = "raw";
+let indianFoods = [];
 
-const API_KEY = "c1QArOcc4SYlCqvg73ZsTG9Cu6nTc0MtOMazf4iv";
+const USDA_KEY = "c1QArOcc4SYlCqvg73ZsTG9Cu6nTc0MtOMazf4iv";
 
-/* TOGGLE */
+
+fetch("data/indian_food_unique_clean.json")
+  .then(res => res.json())
+  .then(data => {
+    indianFoods = data;
+    console.log("✅ IFCT DB loaded:", indianFoods.length);
+  })
+  .catch(err => console.error("❌ IFCT load error", err));
+
+
 toggle.addEventListener("change", () => {
   if (toggle.checked) {
     selectedType = "cooked";
@@ -24,7 +34,14 @@ toggle.addEventListener("change", () => {
   }
 });
 
-/* FORM */
+function findIndianFood(name, state) {
+  return indianFoods.find(item =>
+    item.name.toLowerCase().includes(name) &&
+    item.state.toLowerCase() === state
+  );
+}
+
+
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
@@ -36,8 +53,28 @@ form.addEventListener("submit", async (e) => {
     return;
   }
 
-  // 🔥 IMPORTANT FIX: raw/cooked added to query
-  const api = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${food} ${selectedType}&pageSize=10&api_key=${API_KEY}`;
+  const indianFood = findIndianFood(food, selectedType);
+
+  if (indianFood) {
+    const caloriesPer100g = indianFood.nutrients.energy_kcal;
+    const totalCalories = (caloriesPer100g * quantity) / 100;
+
+    totalCaloriesEl.innerHTML = `
+      ${totalCalories.toFixed(2)} kcal
+      <br>
+      <small>Source: IFCT (India)</small>
+    `;
+    return;
+  }
+
+  totalCaloriesEl.textContent = "Fetching from USDA...";
+
+  fetchFromUSDA(food, quantity);
+});
+
+
+async function fetchFromUSDA(food, quantity) {
+  const api = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${food} cooked&pageSize=5&api_key=${USDA_KEY}`;
 
   try {
     const res = await fetch(api);
@@ -48,40 +85,24 @@ form.addEventListener("submit", async (e) => {
       return;
     }
 
-    // Select best matching food
-    let selectedFood = data.foods.find(item =>
-      item.description.toLowerCase().includes(selectedType) &&
-      !item.description.toLowerCase().includes("canned") &&
-      !item.description.toLowerCase().includes("jar") &&
-      !item.description.toLowerCase().includes("powder") &&
-      !item.description.toLowerCase().includes("dehydrated")&&
-      !item.description.toLowerCase().includes("dried")&&
-      !item.description.toLowerCase().includes("Wild")&&
-      !item.description.toLowerCase().includes("wild")&&
-      (item.dataType === "SR Legacy" || item.dataType === "Foundation")
-    );
-
-    if (!selectedFood) selectedFood = data.foods[0];
-
-    const energy = selectedFood.foodNutrients.find(n =>
-      n.nutrientName.includes("Energy")
-    );
+    const nutrients = data.foods[0].foodNutrients;
+    const energy = nutrients.find(n => n.nutrientName.includes("Energy"));
 
     if (!energy) {
       totalCaloriesEl.textContent = "Calories unavailable";
       return;
     }
 
-    const calories = (energy.value * quantity) / 100;
+    const totalCalories = (energy.value * quantity) / 100;
 
     totalCaloriesEl.innerHTML = `
-      ${calories.toFixed(2)} kcal
+      ${totalCalories.toFixed(2)} kcal
       <br>
-      <small>Using: ${selectedFood.description}</small>
+      <small>Source: USDA (fallback)</small>
     `;
 
   } catch (err) {
-    totalCaloriesEl.textContent = "Error fetching data";
+    totalCaloriesEl.textContent = "Error fetching USDA data";
     console.error(err);
   }
-});
+}

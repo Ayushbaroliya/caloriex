@@ -2,83 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Calorie Calculator</title>
+  <title>CalorieX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
- 
-  <header>
-    <nav class="navbar">
-      <a class="active" href="#">
-        <i class="fa fa-fw fa-home"></i> Home
-      </a>
-      <a href="#">
-        <i class="fa fa-fw fa-search"></i> DailyLog
-      </a>
-      <a href="#">
-        <i class="fa fa-fw fa-cutlery"></i> Dish Builder
-      </a>
-      <a href="#">
-        <i class="fa fa-fw fa-user"></i> Login
-      </a>
-    </nav>
-  </header>
+<main>
+
+  <form id="food-form">
+    <input id="food" type="text" placeholder="Food (e.g. dal, rice)">
+    <input id="quantity" type="number" placeholder="Quantity (grams)">
 
 
-  <main>
     <div class="toggle-wrapper">
-  <span id="rawLabel" class="active-label">Raw</span>
+      <span id="rawLabel" class="active-label">Raw</span>
 
-  <label class="switch">
-    <input type="checkbox" id="foodToggle">
-    <span class="slider"></span>
-  </label>
+      <label class="switch">
+        <input type="checkbox" id="foodToggle">
+        <span class="slider"></span>
+      </label>
 
-  <span id="cookedLabel">Cooked</span>
-</div>
+      <span id="cookedLabel">Cooked</span>
+    </div>
 
-   
-<form id="food-form">
-  <input id="food" type="text" placeholder="Enter ingredient (e.g. rice)">
-  <input id="quantity" type="number" placeholder="Quantity (grams)">
-  <button type="submit">Calculate</button>
-</form>
+    <button type="submit">Calculate</button>
+  </form>
 
-
-  
-    <section class="results-section">
- 
-      
-
-   
-      <div class="placeholder">
-        Calories / Dishes will appear here
-      </div>
-    </section>
-
-    
-    <section class="summary-section">
-    <p>
-      Total Calories: <strong id="totalCalories">0 kcal</strong>
-    </p>
+  <section class="summary-section">
+    Total Calories:
+    <strong id="totalCalories">0 kcal</strong>
   </section>
 
-  </main>
+</main>
 
- 
-  <footer>
-    <p>
-    made fro educational purpose only 
-    </p>
-    <small>
-      © 2025 Calorie Calculator
-    </small>
-  </footer>
 <script src="brain.js"></script>
 </body>
 </html>
