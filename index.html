@@ -5,33 +5,75 @@
   <title>CalorieX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+<header>
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <i class="fas fa-carrot"></i> CalorieX
+    </a>
+
+    <div class="menu-toggle" id="mobile-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">BMI Calculator</a></li>
+      <li><a href="#">Diet Plan</a></li>
+    </ul>
+  </nav>
+</header>
+
 <main>
-
   <form id="food-form">
-    <input id="food" type="text" placeholder="Food (e.g. dal, rice)">
-    <input id="quantity" type="number" placeholder="Quantity (grams)">
-
+    <div class="input-group">
+      <input id="food" type="text" placeholder="Search food (e.g. Rice, Dal)..." required>
+    </div>
+    
+    <div class="input-group">
+      <input id="quantity" type="number" placeholder="Qty (grams)" value="100" required>
+    </div>
 
     <div class="toggle-wrapper">
       <span id="rawLabel" class="active-label">Raw</span>
-
       <label class="switch">
         <input type="checkbox" id="foodToggle">
         <span class="slider"></span>
       </label>
-
       <span id="cookedLabel">Cooked</span>
     </div>
 
-    <button type="submit">Calculate</button>
+    <button type="submit">Calculate <i class="fas fa-bolt"></i></button>
   </form>
 
-  <section class="summary-section">
-    Total Calories:
-    <strong id="totalCalories">0 kcal</strong>
+  <section id="result-card" class="result-card hidden">
+    <div class="result-header">
+      <h2 id="resFoodName">Food Name</h2>
+      <span id="resCategory">Category</span>
+    </div>
+
+    <div class="nutrient-grid">
+      <div class="nutrient-box orange">
+        <i class="fas fa-fire"></i>
+        <span id="resCalories">0</span>
+        <small>Calories</small>
+      </div>
+      <div class="nutrient-box green">
+        <i class="fas fa-drumstick-bite"></i>
+        <span id="resProtein">0g</span>
+        <small>Protein</small>
+      </div>
+      <div class="nutrient-box blue">
+        <i class="fas fa-bread-slice"></i>
+        <span id="resCarbs">0g</span>
+        <small>Carbs</small>
+      </div>
+    </div>
+
+    <div class="source-tag" id="resSource">Source: IFCT 2017</div>
   </section>
 
 </main>

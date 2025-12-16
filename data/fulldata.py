@@ -2,7 +2,7 @@ import json
 import re
 import os
 
-# 1. SETUP PATHS AUTOMATICALLY (Fixes FileNotFoundError)
+# 1. SETUP PATHS AUTOMATICALLY
 script_dir = os.path.dirname(os.path.abspath(__file__))
 input_filename = os.path.join(script_dir, 'ifct2017_compositions.json')
 output_filename = os.path.join(script_dir, 'indian_food_unique_clean.json')
@@ -30,13 +30,18 @@ def get_category(code):
     }
     return categories.get(prefix, 'Other')
 
+def determine_state(name):
+    lower_name = name.lower()
+    if any(x in lower_name for x in ['boiled', 'cooked', 'roasted', 'fried', 'baked', 'parboiled']):
+        return 'Cooked'
+    return 'Raw'
+
 # Load Data
 try:
     with open(input_filename, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
 except FileNotFoundError:
     print(f"ERROR: Could not find {input_filename}")
-    print("Make sure the JSON file is in the SAME folder as this script!")
     exit()
 
 cleaned_data = []
@@ -49,12 +54,9 @@ for item in raw_data:
     
     full_name = clean_item.get('name', 'Unknown').strip()
     
-    # 2. SMART DEDUPLICATION (Split by comma)
-    # "Mango, ripe" -> "Mango"
-    # "Rice, raw, brown" -> "Rice"
+    # 2. SMART DEDUPLICATION
     base_name = full_name.split(',')[0].strip()
     
-    # Skip if we already have this "Base Food"
     if base_name.lower() in seen_base_names:
         continue
     
@@ -63,23 +65,20 @@ for item in raw_data:
     if not isinstance(energy_kj, (int, float)) or energy_kj <= 0:
         continue
 
-    # Convert to kcal
     calories_kcal = round(energy_kj / 4.184)
-    
-    # Double check calculated calories aren't zero (e.g. water)
     if calories_kcal <= 0:
         continue
 
-    # Add to our list
     seen_base_names.add(base_name.lower())
-    
     code = clean_item.get('code', 'UNKNOWN')
     
+    # --- BUILDING THE OBJECT ---
     api_object = {
         "_id": code,
-        "name": base_name,  # storing the clean "Base Name"
-        "original_name": full_name, # keeping original just in case
+        "name": base_name,
+        "original_name": full_name,
         "category": get_category(code),
+        "state": determine_state(full_name),  # <--- I ADDED THIS BACK!
         "nutrients": {
             "protein_g": clean_item.get('protcnt', 0),
             "carbohydrate_g": clean_item.get('choavldf', 0),
@@ -93,5 +92,4 @@ for item in raw_data:
 with open(output_filename, 'w', encoding='utf-8') as f:
     json.dump(cleaned_data, f, indent=2)
 
-print(f"Success! Created '{output_filename}'")
-print(f"Total Unique Items: {len(cleaned_data)}")
+print(f"Success! Created '{output_filename}' with {len(cleaned_data)} items.")

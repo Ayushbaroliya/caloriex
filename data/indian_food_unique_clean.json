@@ -4,6 +4,7 @@
     "name": "Amaranth seed",
     "original_name": "Amaranth seed, black",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 14.59,
       "carbohydrate_g": 59.98,
@@ -15,6 +16,7 @@
     "name": "Bajra",
     "original_name": "Bajra",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.96,
       "carbohydrate_g": 61.78,
@@ -26,6 +28,7 @@
     "name": "Barley",
     "original_name": "Barley",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.94,
       "carbohydrate_g": 61.29,
@@ -37,6 +40,7 @@
     "name": "Jowar",
     "original_name": "Jowar",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 9.97,
       "carbohydrate_g": 67.68,
@@ -48,6 +52,7 @@
     "name": "Maize",
     "original_name": "Maize, dry",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 8.8,
       "carbohydrate_g": 64.77,
@@ -59,6 +64,7 @@
     "name": "Quinoa",
     "original_name": "Quinoa",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 13.11,
       "carbohydrate_g": 53.65,
@@ -70,6 +76,7 @@
     "name": "Ragi",
     "original_name": "Ragi",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 7.16,
       "carbohydrate_g": 66.82,
@@ -81,6 +88,7 @@
     "name": "Rice flakes",
     "original_name": "Rice flakes",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 7.44,
       "carbohydrate_g": 76.75,
@@ -92,6 +100,7 @@
     "name": "Rice puffed",
     "original_name": "Rice puffed",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 7.47,
       "carbohydrate_g": 77.68,
@@ -103,6 +112,7 @@
     "name": "Rice",
     "original_name": "Rice, raw, brown",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 9.16,
       "carbohydrate_g": 74.8,
@@ -114,6 +124,7 @@
     "name": "Samai",
     "original_name": "Samai",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.13,
       "carbohydrate_g": 65.55,
@@ -125,6 +136,7 @@
     "name": "Varagu",
     "original_name": "Varagu",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 8.92,
       "carbohydrate_g": 66.19,
@@ -136,6 +148,7 @@
     "name": "Wheat flour",
     "original_name": "Wheat flour, refined",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.36,
       "carbohydrate_g": 74.27,
@@ -147,6 +160,7 @@
     "name": "Wheat",
     "original_name": "Wheat, whole",
     "category": "Cereals",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.59,
       "carbohydrate_g": 64.72,
@@ -158,6 +172,7 @@
     "name": "Bengal gram",
     "original_name": "Bengal gram, dal",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.55,
       "carbohydrate_g": 46.72,
@@ -169,6 +184,7 @@
     "name": "Black gram",
     "original_name": "Black gram, dal",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.06,
       "carbohydrate_g": 51,
@@ -180,6 +196,7 @@
     "name": "Cowpea",
     "original_name": "Cowpea, brown",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.36,
       "carbohydrate_g": 54.62,
@@ -191,6 +208,7 @@
     "name": "Field bean",
     "original_name": "Field bean, black",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.93,
       "carbohydrate_g": 43.46,
@@ -202,6 +220,7 @@
     "name": "Green gram",
     "original_name": "Green gram, dal",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.88,
       "carbohydrate_g": 52.59,
@@ -213,6 +232,7 @@
     "name": "Horse gram",
     "original_name": "Horse gram, whole",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.73,
       "carbohydrate_g": 57.24,
@@ -224,6 +244,7 @@
     "name": "Lentil dal",
     "original_name": "Lentil dal",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 24.35,
       "carbohydrate_g": 52.53,
@@ -235,6 +256,7 @@
     "name": "Lentil whole",
     "original_name": "Lentil whole, brown",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.49,
       "carbohydrate_g": 48.47,
@@ -246,6 +268,7 @@
     "name": "Moth bean",
     "original_name": "Moth bean",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.75,
       "carbohydrate_g": 52.09,
@@ -257,6 +280,7 @@
     "name": "Peas",
     "original_name": "Peas, dry",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.43,
       "carbohydrate_g": 48.93,
@@ -268,6 +292,7 @@
     "name": "Rajmah",
     "original_name": "Rajmah, black",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.01,
       "carbohydrate_g": 49.59,
@@ -279,6 +304,7 @@
     "name": "Red gram",
     "original_name": "Red gram, dal",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.7,
       "carbohydrate_g": 55.23,
@@ -290,6 +316,7 @@
     "name": "Ricebean",
     "original_name": "Ricebean",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.97,
       "carbohydrate_g": 51.26,
@@ -301,6 +328,7 @@
     "name": "Soya bean",
     "original_name": "Soya bean, brown",
     "category": "Pulses",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 35.58,
       "carbohydrate_g": 12.79,
@@ -312,6 +340,7 @@
     "name": "Agathi leaves",
     "original_name": "Agathi leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 8.01,
       "carbohydrate_g": 5.21,
@@ -323,6 +352,7 @@
     "name": "Amaranth leaves",
     "original_name": "Amaranth leaves, green",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.29,
       "carbohydrate_g": 2.28,
@@ -334,6 +364,7 @@
     "name": "Amaranth spinosus",
     "original_name": "Amaranth spinosus, leaves, green mix",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.54,
       "carbohydrate_g": 1.61,
@@ -345,6 +376,7 @@
     "name": "Basella leaves",
     "original_name": "Basella leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.57,
       "carbohydrate_g": 2.01,
@@ -356,6 +388,7 @@
     "name": "Bathua leaves",
     "original_name": "Bathua leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.5,
       "carbohydrate_g": 2.56,
@@ -367,6 +400,7 @@
     "name": "Beet greens",
     "original_name": "Beet greens",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.38,
       "carbohydrate_g": 3.86,
@@ -378,6 +412,7 @@
     "name": "Betel leaves",
     "original_name": "Betel leaves, big (kolkata)",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.51,
       "carbohydrate_g": 7.37,
@@ -389,6 +424,7 @@
     "name": "Brussels sprouts",
     "original_name": "Brussels sprouts",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 4.26,
       "carbohydrate_g": 5.09,
@@ -400,6 +436,7 @@
     "name": "Cabbage",
     "original_name": "Cabbage, Chinese",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.58,
       "carbohydrate_g": 2.36,
@@ -411,6 +448,7 @@
     "name": "Cauliflower leaves",
     "original_name": "Cauliflower leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.9,
       "carbohydrate_g": 3.39,
@@ -422,6 +460,7 @@
     "name": "Colocasia leaves",
     "original_name": "Colocasia leaves, green",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.42,
       "carbohydrate_g": 3.69,
@@ -433,6 +472,7 @@
     "name": "Drumstick leaves",
     "original_name": "Drumstick leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 6.41,
       "carbohydrate_g": 5.62,
@@ -444,6 +484,7 @@
     "name": "Fenugreek leaves",
     "original_name": "Fenugreek leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.68,
       "carbohydrate_g": 2.17,
@@ -455,6 +496,7 @@
     "name": "Garden cress",
     "original_name": "Garden cress",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 5.62,
       "carbohydrate_g": 4.48,
@@ -466,6 +508,7 @@
     "name": "Gogu leaves",
     "original_name": "Gogu leaves, green",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.86,
       "carbohydrate_g": 4.06,
@@ -477,6 +520,7 @@
     "name": "Knol-Khol",
     "original_name": "Knol-Khol, leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.12,
       "carbohydrate_g": 6.16,
@@ -488,6 +532,7 @@
     "name": "Lettuce",
     "original_name": "Lettuce",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.54,
       "carbohydrate_g": 3.01,
@@ -499,6 +544,7 @@
     "name": "Mustard leaves",
     "original_name": "Mustard leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.52,
       "carbohydrate_g": 2.41,
@@ -510,6 +556,7 @@
     "name": "Pak Choi leaves",
     "original_name": "Pak Choi leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.41,
       "carbohydrate_g": 1.78,
@@ -521,6 +568,7 @@
     "name": "Parsley",
     "original_name": "Parsley",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 5.55,
       "carbohydrate_g": 9.43,
@@ -532,6 +580,7 @@
     "name": "Ponnaganni",
     "original_name": "Ponnaganni",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 5.29,
       "carbohydrate_g": 5.17,
@@ -543,6 +592,7 @@
     "name": "Pumpkin leaves",
     "original_name": "Pumpkin leaves, tender",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 4.21,
       "carbohydrate_g": 4.75,
@@ -554,6 +604,7 @@
     "name": "Radish leaves",
     "original_name": "Radish leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.22,
       "carbohydrate_g": 2.77,
@@ -565,6 +616,7 @@
     "name": "Rumex leaves",
     "original_name": "Rumex leaves",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.62,
       "carbohydrate_g": 2.33,
@@ -576,6 +628,7 @@
     "name": "Spinach",
     "original_name": "Spinach",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.14,
       "carbohydrate_g": 2.05,
@@ -587,6 +640,7 @@
     "name": "Tamarind leaves",
     "original_name": "Tamarind leaves, tender",
     "category": "Leafy Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 5.84,
       "carbohydrate_g": 10.04,
@@ -598,6 +652,7 @@
     "name": "Ash gourd",
     "original_name": "Ash gourd",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.79,
       "carbohydrate_g": 2.84,
@@ -609,6 +664,7 @@
     "name": "Bamboo shoot",
     "original_name": "Bamboo shoot, tender",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.33,
       "carbohydrate_g": 1.67,
@@ -620,6 +676,7 @@
     "name": "Bean scarlet",
     "original_name": "Bean scarlet, tender",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.86,
       "carbohydrate_g": 5.16,
@@ -631,6 +688,7 @@
     "name": "Bitter gourd",
     "original_name": "Bitter gourd, jagged, teeth ridges, elongate",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.44,
       "carbohydrate_g": 2.82,
@@ -642,6 +700,7 @@
     "name": "Bottle gourd",
     "original_name": "Bottle gourd, elongate, pale green",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.53,
       "carbohydrate_g": 1.68,
@@ -653,6 +712,7 @@
     "name": "Brinjal-1",
     "original_name": "Brinjal-1",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.77,
       "carbohydrate_g": 3.49,
@@ -664,6 +724,7 @@
     "name": "Brinjal-2",
     "original_name": "Brinjal-2",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.82,
       "carbohydrate_g": 2.71,
@@ -675,6 +736,7 @@
     "name": "Brinjal-3",
     "original_name": "Brinjal-3",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.36,
       "carbohydrate_g": 3.38,
@@ -686,6 +748,7 @@
     "name": "Brinjal-4",
     "original_name": "Brinjal-4",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.51,
       "carbohydrate_g": 3.19,
@@ -697,6 +760,7 @@
     "name": "Brinjal-5",
     "original_name": "Brinjal-5",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.38,
       "carbohydrate_g": 4.02,
@@ -708,6 +772,7 @@
     "name": "Brinjal-6",
     "original_name": "Brinjal-6",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.46,
       "carbohydrate_g": 3.29,
@@ -719,6 +784,7 @@
     "name": "Brinjal-7",
     "original_name": "Brinjal-7",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.4,
       "carbohydrate_g": 3.1,
@@ -730,6 +796,7 @@
     "name": "Brinjal-8",
     "original_name": "Brinjal-8",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.82,
       "carbohydrate_g": 3.75,
@@ -741,6 +808,7 @@
     "name": "Brinjal-9",
     "original_name": "Brinjal-9",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.47,
       "carbohydrate_g": 3.52,
@@ -752,6 +820,7 @@
     "name": "Brinjal-10",
     "original_name": "Brinjal-10",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.68,
       "carbohydrate_g": 4.08,
@@ -763,6 +832,7 @@
     "name": "Brinjal-11",
     "original_name": "Brinjal-11",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.43,
       "carbohydrate_g": 3.53,
@@ -774,6 +844,7 @@
     "name": "Brinjal-12",
     "original_name": "Brinjal-12",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.6,
       "carbohydrate_g": 2.73,
@@ -785,6 +856,7 @@
     "name": "Brinjal-13",
     "original_name": "Brinjal-13",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.49,
       "carbohydrate_g": 4.51,
@@ -796,6 +868,7 @@
     "name": "Brinjal-14",
     "original_name": "Brinjal-14",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.56,
       "carbohydrate_g": 3.27,
@@ -807,6 +880,7 @@
     "name": "Brinjal-15",
     "original_name": "Brinjal-15",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.58,
       "carbohydrate_g": 3.96,
@@ -818,6 +892,7 @@
     "name": "Brinjal-16",
     "original_name": "Brinjal-16",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.26,
       "carbohydrate_g": 3.46,
@@ -829,6 +904,7 @@
     "name": "Brinjal-17",
     "original_name": "Brinjal-17",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.18,
       "carbohydrate_g": 2.89,
@@ -840,6 +916,7 @@
     "name": "Brinjal-18",
     "original_name": "Brinjal-18",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.47,
       "carbohydrate_g": 4.1,
@@ -851,6 +928,7 @@
     "name": "Brinjal-19",
     "original_name": "Brinjal-19",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.26,
       "carbohydrate_g": 3.39,
@@ -862,6 +940,7 @@
     "name": "Brinjal-20",
     "original_name": "Brinjal-20",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.44,
       "carbohydrate_g": 3.15,
@@ -873,6 +952,7 @@
     "name": "Brinjal-21",
     "original_name": "Brinjal-21",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.36,
       "carbohydrate_g": 3.93,
@@ -884,6 +964,7 @@
     "name": "Brinjal - all varieties",
     "original_name": "Brinjal - all varieties",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.48,
       "carbohydrate_g": 3.52,
@@ -895,6 +976,7 @@
     "name": "Broad beans",
     "original_name": "Broad beans",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.85,
       "carbohydrate_g": 2.11,
@@ -906,6 +988,7 @@
     "name": "Capsicum",
     "original_name": "Capsicum, green",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.11,
       "carbohydrate_g": 1.84,
@@ -917,6 +1000,7 @@
     "name": "Cauliflower",
     "original_name": "Cauliflower",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.15,
       "carbohydrate_g": 2.03,
@@ -928,6 +1012,7 @@
     "name": "Celery stalk",
     "original_name": "Celery stalk",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.98,
       "carbohydrate_g": 2.33,
@@ -939,6 +1024,7 @@
     "name": "Cho-cho-marrow",
     "original_name": "Cho-cho-marrow",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.66,
       "carbohydrate_g": 3.47,
@@ -950,6 +1036,7 @@
     "name": "Cluster beans",
     "original_name": "Cluster beans",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.55,
       "carbohydrate_g": 4.91,
@@ -961,6 +1048,7 @@
     "name": "Colocasia",
     "original_name": "Colocasia, stem, black",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.76,
       "carbohydrate_g": 3.83,
@@ -972,6 +1060,7 @@
     "name": "Corn",
     "original_name": "Corn, Baby",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.69,
       "carbohydrate_g": 11.66,
@@ -983,6 +1072,7 @@
     "name": "Cucumber",
     "original_name": "Cucumber, green, elongate",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.71,
       "carbohydrate_g": 3.48,
@@ -994,6 +1084,7 @@
     "name": "Drumstick",
     "original_name": "Drumstick",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.62,
       "carbohydrate_g": 3.76,
@@ -1005,6 +1096,7 @@
     "name": "Field beans",
     "original_name": "Field beans, tender, broad",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.06,
       "carbohydrate_g": 2.75,
@@ -1016,6 +1108,7 @@
     "name": "French beans",
     "original_name": "French beans, country",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.49,
       "carbohydrate_g": 2.68,
@@ -1027,6 +1120,7 @@
     "name": "Jack fruit",
     "original_name": "Jack fruit, raw",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.98,
       "carbohydrate_g": 3.48,
@@ -1038,6 +1132,7 @@
     "name": "Knol - Khol",
     "original_name": "Knol - Khol",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.58,
       "carbohydrate_g": 1.39,
@@ -1049,6 +1144,7 @@
     "name": "Kovai",
     "original_name": "Kovai, big",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.39,
       "carbohydrate_g": 2.01,
@@ -1060,6 +1156,7 @@
     "name": "Ladies finger",
     "original_name": "Ladies finger",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.08,
       "carbohydrate_g": 3.62,
@@ -1071,6 +1168,7 @@
     "name": "Mango",
     "original_name": "Mango, green, raw",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.69,
       "carbohydrate_g": 10.59,
@@ -1082,6 +1180,7 @@
     "name": "Onion",
     "original_name": "Onion, stalk",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.07,
       "carbohydrate_g": 2.99,
@@ -1093,6 +1192,7 @@
     "name": "Papaya",
     "original_name": "Papaya, raw",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.5,
       "carbohydrate_g": 4.4,
@@ -1104,6 +1204,7 @@
     "name": "Parwar",
     "original_name": "Parwar",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.4,
       "carbohydrate_g": 3.54,
@@ -1115,6 +1216,7 @@
     "name": "Plantain",
     "original_name": "Plantain, flower",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.47,
       "carbohydrate_g": 2.15,
@@ -1126,6 +1228,7 @@
     "name": "Pumpkin",
     "original_name": "Pumpkin, green, cylindrical",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.87,
       "carbohydrate_g": 4.22,
@@ -1137,6 +1240,7 @@
     "name": "Ridge gourd",
     "original_name": "Ridge gourd",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.91,
       "carbohydrate_g": 1.72,
@@ -1148,6 +1252,7 @@
     "name": "Snake gourd",
     "original_name": "Snake gourd, long, pale green",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.98,
       "carbohydrate_g": 1.27,
@@ -1159,6 +1264,7 @@
     "name": "Tinda",
     "original_name": "Tinda, tender",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.02,
       "carbohydrate_g": 1.9,
@@ -1170,6 +1276,7 @@
     "name": "Tomato",
     "original_name": "Tomato, green",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.12,
       "carbohydrate_g": 3.18,
@@ -1181,6 +1288,7 @@
     "name": "Zucchini",
     "original_name": "Zucchini, green",
     "category": "Other Veg",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.1,
       "carbohydrate_g": 2.33,
@@ -1192,6 +1300,7 @@
     "name": "Apple",
     "original_name": "Apple, big",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.29,
       "carbohydrate_g": 13.11,
@@ -1203,6 +1312,7 @@
     "name": "Apricot",
     "original_name": "Apricot, dried",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.17,
       "carbohydrate_g": 72.63,
@@ -1214,6 +1324,7 @@
     "name": "Avocado fruit",
     "original_name": "Avocado fruit",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.95,
       "carbohydrate_g": 1.75,
@@ -1225,6 +1336,7 @@
     "name": "Bael fruit",
     "original_name": "Bael fruit",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.63,
       "carbohydrate_g": 28.21,
@@ -1236,6 +1348,7 @@
     "name": "Banana",
     "original_name": "Banana, ripe, montham",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.25,
       "carbohydrate_g": 24.95,
@@ -1247,6 +1360,7 @@
     "name": "Black berry",
     "original_name": "Black berry",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.92,
       "carbohydrate_g": 10.64,
@@ -1258,6 +1372,7 @@
     "name": "Cherries",
     "original_name": "Cherries, red",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.49,
       "carbohydrate_g": 11.87,
@@ -1269,6 +1384,7 @@
     "name": "Currants",
     "original_name": "Currants, black",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.51,
       "carbohydrate_g": 9.93,
@@ -1280,6 +1396,7 @@
     "name": "Custard apple",
     "original_name": "Custard apple",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.62,
       "carbohydrate_g": 20.38,
@@ -1291,6 +1408,7 @@
     "name": "Dates",
     "original_name": "Dates, dry, pale brown",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.45,
       "carbohydrate_g": 74.91,
@@ -1302,6 +1420,7 @@
     "name": "Fig",
     "original_name": "Fig",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.03,
       "carbohydrate_g": 16.28,
@@ -1313,6 +1432,7 @@
     "name": "Goosberry",
     "original_name": "Goosberry",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.34,
       "carbohydrate_g": 4.39,
@@ -1324,6 +1444,7 @@
     "name": "Grapes",
     "original_name": "Grapes, seeded, round, black",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.76,
       "carbohydrate_g": 13.23,
@@ -1335,6 +1456,7 @@
     "name": "Guava",
     "original_name": "Guava, white flesh",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.44,
       "carbohydrate_g": 5.13,
@@ -1346,6 +1468,7 @@
     "name": "Jambu fruit",
     "original_name": "Jambu fruit, ripe",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.82,
       "carbohydrate_g": 12.3,
@@ -1357,6 +1480,7 @@
     "name": "Karonda fruit",
     "original_name": "Karonda fruit",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.15,
       "carbohydrate_g": 2.87,
@@ -1368,6 +1492,7 @@
     "name": "Lemon",
     "original_name": "Lemon, juice",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.41,
       "carbohydrate_g": 0,
@@ -1379,6 +1504,7 @@
     "name": "Lime",
     "original_name": "Lime, sweet, pulp",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.76,
       "carbohydrate_g": 5.18,
@@ -1390,6 +1516,7 @@
     "name": "Litchi",
     "original_name": "Litchi",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.99,
       "carbohydrate_g": 11.41,
@@ -1401,6 +1528,7 @@
     "name": "Mangosteen",
     "original_name": "Mangosteen",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.63,
       "carbohydrate_g": 11.41,
@@ -1412,6 +1540,7 @@
     "name": "Manila tamarind",
     "original_name": "Manila tamarind",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.56,
       "carbohydrate_g": 13.54,
@@ -1423,6 +1552,7 @@
     "name": "Musk melon",
     "original_name": "Musk melon, orange flesh",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.42,
       "carbohydrate_g": 4.24,
@@ -1434,6 +1564,7 @@
     "name": "Orange",
     "original_name": "Orange, pulp",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.7,
       "carbohydrate_g": 7.92,
@@ -1445,6 +1576,7 @@
     "name": "Palm fruit",
     "original_name": "Palm fruit, tender",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.5,
       "carbohydrate_g": 4.92,
@@ -1456,6 +1588,7 @@
     "name": "Peach",
     "original_name": "Peach",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.86,
       "carbohydrate_g": 7.82,
@@ -1467,6 +1600,7 @@
     "name": "Pear",
     "original_name": "Pear",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.36,
       "carbohydrate_g": 8.09,
@@ -1478,6 +1612,7 @@
     "name": "Phalsa",
     "original_name": "Phalsa",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.66,
       "carbohydrate_g": 15.09,
@@ -1489,6 +1624,7 @@
     "name": "Pineapple",
     "original_name": "Pineapple",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.52,
       "carbohydrate_g": 9.42,
@@ -1500,6 +1636,7 @@
     "name": "Plum",
     "original_name": "Plum",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.64,
       "carbohydrate_g": 12.1,
@@ -1511,6 +1648,7 @@
     "name": "Pomegranate",
     "original_name": "Pomegranate, maroon seeds",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.33,
       "carbohydrate_g": 11.58,
@@ -1522,6 +1660,7 @@
     "name": "Pummelo",
     "original_name": "Pummelo",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.68,
       "carbohydrate_g": 10.64,
@@ -1533,6 +1672,7 @@
     "name": "Raisins",
     "original_name": "Raisins, dried, black",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.57,
       "carbohydrate_g": 71.29,
@@ -1544,6 +1684,7 @@
     "name": "Rambutan",
     "original_name": "Rambutan",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.68,
       "carbohydrate_g": 16.84,
@@ -1555,6 +1696,7 @@
     "name": "Sapota",
     "original_name": "Sapota",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.92,
       "carbohydrate_g": 13.9,
@@ -1566,6 +1708,7 @@
     "name": "Soursop",
     "original_name": "Soursop",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.74,
       "carbohydrate_g": 11.94,
@@ -1577,6 +1720,7 @@
     "name": "Star fruit",
     "original_name": "Star fruit",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.79,
       "carbohydrate_g": 4.51,
@@ -1588,6 +1732,7 @@
     "name": "Strawberry",
     "original_name": "Strawberry",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.97,
       "carbohydrate_g": 3.4,
@@ -1599,6 +1744,7 @@
     "name": "Tamarind",
     "original_name": "Tamarind, pulp",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.92,
       "carbohydrate_g": 67.35,
@@ -1610,6 +1756,7 @@
     "name": "Water melon",
     "original_name": "Water melon, dark green (sugar baby)",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.6,
       "carbohydrate_g": 3.86,
@@ -1621,6 +1768,7 @@
     "name": "Wood Apple",
     "original_name": "Wood Apple",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.14,
       "carbohydrate_g": 7.52,
@@ -1632,6 +1780,7 @@
     "name": "Zizyphus",
     "original_name": "Zizyphus",
     "category": "Fruits",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.34,
       "carbohydrate_g": 9.4,
@@ -1643,6 +1792,7 @@
     "name": "Beet root",
     "original_name": "Beet root",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.95,
       "carbohydrate_g": 6.18,
@@ -1654,6 +1804,7 @@
     "name": "Carrot",
     "original_name": "Carrot, orange",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.95,
       "carbohydrate_g": 5.55,
@@ -1665,6 +1816,7 @@
     "name": "Lotus root",
     "original_name": "Lotus root",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.94,
       "carbohydrate_g": 14.67,
@@ -1676,6 +1828,7 @@
     "name": "Potato",
     "original_name": "Potato, brown skin, big",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.54,
       "carbohydrate_g": 14.89,
@@ -1687,6 +1840,7 @@
     "name": "Radish",
     "original_name": "Radish, elongate, red skin",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.67,
       "carbohydrate_g": 6.71,
@@ -1698,6 +1852,7 @@
     "name": "Sweet potato",
     "original_name": "Sweet potato, brown skin",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.33,
       "carbohydrate_g": 24.25,
@@ -1709,6 +1864,7 @@
     "name": "Tapioca",
     "original_name": "Tapioca",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.03,
       "carbohydrate_g": 17.81,
@@ -1720,6 +1876,7 @@
     "name": "Water Chestnut",
     "original_name": "Water Chestnut",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.86,
       "carbohydrate_g": 21.46,
@@ -1731,6 +1888,7 @@
     "name": "Yam",
     "original_name": "Yam, elephant",
     "category": "Roots",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.56,
       "carbohydrate_g": 17.46,
@@ -1742,6 +1900,7 @@
     "name": "Chillies",
     "original_name": "Chillies, green-1",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.62,
       "carbohydrate_g": 6.32,
@@ -1753,6 +1912,7 @@
     "name": "Coriander leaves",
     "original_name": "Coriander leaves",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.52,
       "carbohydrate_g": 1.93,
@@ -1764,6 +1924,7 @@
     "name": "Curry leaves",
     "original_name": "Curry leaves",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 7.41,
       "carbohydrate_g": 4.51,
@@ -1775,6 +1936,7 @@
     "name": "Garlic",
     "original_name": "Garlic, big clove",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 6.92,
       "carbohydrate_g": 21.93,
@@ -1786,6 +1948,7 @@
     "name": "Ginger",
     "original_name": "Ginger, fresh",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 2.22,
       "carbohydrate_g": 8.97,
@@ -1797,6 +1960,7 @@
     "name": "Mango ginger",
     "original_name": "Mango ginger",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.45,
       "carbohydrate_g": 6.98,
@@ -1808,6 +1972,7 @@
     "name": "Mint leaves",
     "original_name": "Mint leaves",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 4.66,
       "carbohydrate_g": 2.39,
@@ -1819,6 +1984,7 @@
     "name": "Asafoetida",
     "original_name": "Asafoetida",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 6.34,
       "carbohydrate_g": 71.95,
@@ -1830,6 +1996,7 @@
     "name": "Cardamom",
     "original_name": "Cardamom, green",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 8.1,
       "carbohydrate_g": 47.76,
@@ -1841,6 +2008,7 @@
     "name": "Cloves",
     "original_name": "Cloves",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 5.86,
       "carbohydrate_g": 18.73,
@@ -1852,6 +2020,7 @@
     "name": "Coriander seeds",
     "original_name": "Coriander seeds",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.66,
       "carbohydrate_g": 12.98,
@@ -1863,6 +2032,7 @@
     "name": "Cumin seeds",
     "original_name": "Cumin seeds",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 13.91,
       "carbohydrate_g": 22.62,
@@ -1874,6 +2044,7 @@
     "name": "Fenugreek seeds",
     "original_name": "Fenugreek seeds",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 25.41,
       "carbohydrate_g": 10.57,
@@ -1885,6 +2056,7 @@
     "name": "Mace",
     "original_name": "Mace",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 6.24,
       "carbohydrate_g": 26.51,
@@ -1896,6 +2068,7 @@
     "name": "Nutmeg",
     "original_name": "Nutmeg",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 6.3,
       "carbohydrate_g": 27.64,
@@ -1907,6 +2080,7 @@
     "name": "Omum",
     "original_name": "Omum",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 15.89,
       "carbohydrate_g": 24.53,
@@ -1918,6 +2092,7 @@
     "name": "Pippali",
     "original_name": "Pippali",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.53,
       "carbohydrate_g": 35.7,
@@ -1929,6 +2104,7 @@
     "name": "Pepper",
     "original_name": "Pepper, black",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.12,
       "carbohydrate_g": 36.22,
@@ -1940,6 +2116,7 @@
     "name": "Poppy seeds",
     "original_name": "Poppy seeds",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.31,
       "carbohydrate_g": 12.37,
@@ -1951,6 +2128,7 @@
     "name": "Turmeric powder",
     "original_name": "Turmeric powder",
     "category": "Spices",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 7.66,
       "carbohydrate_g": 49.22,
@@ -1962,6 +2140,7 @@
     "name": "Almond",
     "original_name": "Almond",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.41,
       "carbohydrate_g": 3.04,
@@ -1973,6 +2152,7 @@
     "name": "Arecanut",
     "original_name": "Arecanut, dried, brown",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 5.78,
       "carbohydrate_g": 70.42,
@@ -1984,6 +2164,7 @@
     "name": "Cashew nut",
     "original_name": "Cashew nut",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.78,
       "carbohydrate_g": 25.46,
@@ -1995,6 +2176,7 @@
     "name": "Coconut",
     "original_name": "Coconut, kernal, dry",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 7.27,
       "carbohydrate_g": 8.01,
@@ -2006,6 +2188,7 @@
     "name": "Gingelly seeds",
     "original_name": "Gingelly seeds, black",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.17,
       "carbohydrate_g": 10.29,
@@ -2017,6 +2200,7 @@
     "name": "Ground nut",
     "original_name": "Ground nut",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.65,
       "carbohydrate_g": 17.27,
@@ -2028,6 +2212,7 @@
     "name": "Mustard seeds",
     "original_name": "Mustard seeds",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.51,
       "carbohydrate_g": 16.8,
@@ -2039,6 +2224,7 @@
     "name": "Linseeds",
     "original_name": "Linseeds",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.55,
       "carbohydrate_g": 10.99,
@@ -2050,6 +2236,7 @@
     "name": "Niger seeds",
     "original_name": "Niger seeds, black",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.92,
       "carbohydrate_g": 22.98,
@@ -2061,6 +2248,7 @@
     "name": "Pine seed",
     "original_name": "Pine seed",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 12.55,
       "carbohydrate_g": 26.77,
@@ -2072,6 +2260,7 @@
     "name": "Pistachio nuts",
     "original_name": "Pistachio nuts",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.35,
       "carbohydrate_g": 15.82,
@@ -2083,6 +2272,7 @@
     "name": "Safflower seeds",
     "original_name": "Safflower seeds",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.66,
       "carbohydrate_g": 30.18,
@@ -2094,6 +2284,7 @@
     "name": "Sunflower seeds",
     "original_name": "Sunflower seeds",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.53,
       "carbohydrate_g": 6.85,
@@ -2105,6 +2296,7 @@
     "name": "Walnut",
     "original_name": "Walnut",
     "category": "Nuts",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 14.92,
       "carbohydrate_g": 10.14,
@@ -2116,6 +2308,7 @@
     "name": "Jaggery",
     "original_name": "Jaggery, cane",
     "category": "Sugars",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.85,
       "carbohydrate_g": 84.87,
@@ -2127,6 +2320,7 @@
     "name": "Sugarcane",
     "original_name": "Sugarcane, juice",
     "category": "Sugars",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.16,
       "carbohydrate_g": 13.11,
@@ -2138,6 +2332,7 @@
     "name": "Button mushroom",
     "original_name": "Button mushroom, fresh",
     "category": "Mushrooms",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.68,
       "carbohydrate_g": 1.98,
@@ -2149,6 +2344,7 @@
     "name": "Chicken mushroom",
     "original_name": "Chicken mushroom, fresh",
     "category": "Mushrooms",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 1.84,
       "carbohydrate_g": 2.76,
@@ -2160,6 +2356,7 @@
     "name": "Shiitake mushroom",
     "original_name": "Shiitake mushroom, fresh",
     "category": "Mushrooms",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.19,
       "carbohydrate_g": 8.98,
@@ -2171,6 +2368,7 @@
     "name": "Oyster mushroom",
     "original_name": "Oyster mushroom, dried",
     "category": "Mushrooms",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.04,
       "carbohydrate_g": 33.07,
@@ -2182,6 +2380,7 @@
     "name": "Toddy",
     "original_name": "Toddy",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.18,
       "carbohydrate_g": 5.72,
@@ -2193,6 +2392,7 @@
     "name": "Coconut Water",
     "original_name": "Coconut Water",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 0.26,
       "carbohydrate_g": 3.16,
@@ -2204,6 +2404,7 @@
     "name": "Milk",
     "original_name": "Milk, whole, Buffalo",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 3.68,
       "carbohydrate_g": 8.39,
@@ -2215,6 +2416,7 @@
     "name": "Panner",
     "original_name": "Panner",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.86,
       "carbohydrate_g": 12.41,
@@ -2226,6 +2428,7 @@
     "name": "Khoa",
     "original_name": "Khoa",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 16.34,
       "carbohydrate_g": 16.53,
@@ -2237,6 +2440,7 @@
     "name": "Egg",
     "original_name": "Egg, poultry, whole, raw",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 13.28,
       "carbohydrate_g": 0,
@@ -2248,6 +2452,7 @@
     "name": "Chicken",
     "original_name": "Chicken, poultry, leg, skinless",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.44,
       "carbohydrate_g": 0,
@@ -2259,6 +2464,7 @@
     "name": "Poultry",
     "original_name": "Poultry, chicken, liver",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.57,
       "carbohydrate_g": 0,
@@ -2270,6 +2476,7 @@
     "name": "Country hen",
     "original_name": "Country hen, leg, with skin",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.01,
       "carbohydrate_g": 0,
@@ -2281,6 +2488,7 @@
     "name": "Duck",
     "original_name": "Duck, meat, with skin",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.07,
       "carbohydrate_g": 0,
@@ -2292,6 +2500,7 @@
     "name": "Emu",
     "original_name": "Emu, meat, skinless",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.65,
       "carbohydrate_g": 0,
@@ -2303,6 +2512,7 @@
     "name": "Guinea fowl",
     "original_name": "Guinea fowl, meat, with skin",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.52,
       "carbohydrate_g": 0,
@@ -2314,6 +2524,7 @@
     "name": "Pigeon",
     "original_name": "Pigeon, meat, with skin",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.94,
       "carbohydrate_g": 0,
@@ -2325,6 +2536,7 @@
     "name": "Quail",
     "original_name": "Quail, meat, skinless",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.92,
       "carbohydrate_g": 0,
@@ -2336,6 +2548,7 @@
     "name": "Turkey",
     "original_name": "Turkey, leg, with skin",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.3,
       "carbohydrate_g": 0,
@@ -2347,6 +2560,7 @@
     "name": "Goat",
     "original_name": "Goat, shoulder, meat",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.33,
       "carbohydrate_g": 0,
@@ -2358,6 +2572,7 @@
     "name": "Sheep",
     "original_name": "Sheep, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.24,
       "carbohydrate_g": 0,
@@ -2369,6 +2584,7 @@
     "name": "Beef",
     "original_name": "Beef, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.56,
       "carbohydrate_g": 0,
@@ -2380,6 +2596,7 @@
     "name": "Calf",
     "original_name": "Calf, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.98,
       "carbohydrate_g": 0,
@@ -2391,6 +2608,7 @@
     "name": "Mithun",
     "original_name": "Mithun, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.05,
       "carbohydrate_g": 0,
@@ -2402,6 +2620,7 @@
     "name": "Pork",
     "original_name": "Pork, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.41,
       "carbohydrate_g": 0,
@@ -2413,6 +2632,7 @@
     "name": "Hare",
     "original_name": "Hare, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.13,
       "carbohydrate_g": 0,
@@ -2424,6 +2644,7 @@
     "name": "Rabbit",
     "original_name": "Rabbit, shoulder",
     "category": "Meat",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.01,
       "carbohydrate_g": 0,
@@ -2435,6 +2656,7 @@
     "name": "Allathi",
     "original_name": "Allathi",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.77,
       "carbohydrate_g": 0,
@@ -2446,6 +2668,7 @@
     "name": "Aluva",
     "original_name": "Aluva",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.63,
       "carbohydrate_g": 0,
@@ -2457,6 +2680,7 @@
     "name": "Anchovy",
     "original_name": "Anchovy",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.88,
       "carbohydrate_g": 0,
@@ -2468,6 +2692,7 @@
     "name": "Ari fish",
     "original_name": "Ari fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.01,
       "carbohydrate_g": 0,
@@ -2479,6 +2704,7 @@
     "name": "Betki",
     "original_name": "Betki",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 15.28,
       "carbohydrate_g": 0,
@@ -2490,6 +2716,7 @@
     "name": "Black snapper",
     "original_name": "Black snapper",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.5,
       "carbohydrate_g": 0,
@@ -2501,6 +2728,7 @@
     "name": "Bombay duck",
     "original_name": "Bombay duck",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 13.53,
       "carbohydrate_g": 0,
@@ -2512,6 +2740,7 @@
     "name": "Bommuralu",
     "original_name": "Bommuralu",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.3,
       "carbohydrate_g": 0,
@@ -2523,6 +2752,7 @@
     "name": "Cat fish",
     "original_name": "Cat fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.18,
       "carbohydrate_g": 0,
@@ -2534,6 +2764,7 @@
     "name": "Chakla",
     "original_name": "Chakla",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.21,
       "carbohydrate_g": 0,
@@ -2545,6 +2776,7 @@
     "name": "Chappal",
     "original_name": "Chappal",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.17,
       "carbohydrate_g": 0,
@@ -2556,6 +2788,7 @@
     "name": "Chelu",
     "original_name": "Chelu",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.02,
       "carbohydrate_g": 0,
@@ -2567,6 +2800,7 @@
     "name": "Chembali",
     "original_name": "Chembali",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.06,
       "carbohydrate_g": 0,
@@ -2578,6 +2812,7 @@
     "name": "Eri meen",
     "original_name": "Eri meen",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.3,
       "carbohydrate_g": 0,
@@ -2589,6 +2824,7 @@
     "name": "Gobro",
     "original_name": "Gobro",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.37,
       "carbohydrate_g": 0,
@@ -2600,6 +2836,7 @@
     "name": "Guitar fish",
     "original_name": "Guitar fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.56,
       "carbohydrate_g": 0,
@@ -2611,6 +2848,7 @@
     "name": "Hilsa",
     "original_name": "Hilsa",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.8,
       "carbohydrate_g": 0,
@@ -2622,6 +2860,7 @@
     "name": "Jallal",
     "original_name": "Jallal",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.55,
       "carbohydrate_g": 0,
@@ -2633,6 +2872,7 @@
     "name": "Jathi vela meen",
     "original_name": "Jathi vela meen",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.45,
       "carbohydrate_g": 0,
@@ -2644,6 +2884,7 @@
     "name": "Kadal bral",
     "original_name": "Kadal bral",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.72,
       "carbohydrate_g": 0,
@@ -2655,6 +2896,7 @@
     "name": "Kadali",
     "original_name": "Kadali",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.07,
       "carbohydrate_g": 0,
@@ -2666,6 +2908,7 @@
     "name": "Kalamaara",
     "original_name": "Kalamaara",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.89,
       "carbohydrate_g": 0,
@@ -2677,6 +2920,7 @@
     "name": "Kalava",
     "original_name": "Kalava",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.38,
       "carbohydrate_g": 0,
@@ -2688,6 +2932,7 @@
     "name": "Kanamayya",
     "original_name": "Kanamayya",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.19,
       "carbohydrate_g": 0,
@@ -2699,6 +2944,7 @@
     "name": "Kannadi paarai",
     "original_name": "Kannadi paarai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.09,
       "carbohydrate_g": 0,
@@ -2710,6 +2956,7 @@
     "name": "Karimeen",
     "original_name": "Karimeen",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.68,
       "carbohydrate_g": 0,
@@ -2721,6 +2968,7 @@
     "name": "Karnagawala",
     "original_name": "Karnagawala",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.52,
       "carbohydrate_g": 0,
@@ -2732,6 +2980,7 @@
     "name": "Kayrai",
     "original_name": "Kayrai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.15,
       "carbohydrate_g": 0,
@@ -2743,6 +2992,7 @@
     "name": "Kiriyan",
     "original_name": "Kiriyan",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.49,
       "carbohydrate_g": 0,
@@ -2754,6 +3004,7 @@
     "name": "Kite fish",
     "original_name": "Kite fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.07,
       "carbohydrate_g": 0,
@@ -2765,6 +3016,7 @@
     "name": "Korka",
     "original_name": "Korka",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.72,
       "carbohydrate_g": 0,
@@ -2776,6 +3028,7 @@
     "name": "Kulam paarai",
     "original_name": "Kulam paarai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.62,
       "carbohydrate_g": 0,
@@ -2787,6 +3040,7 @@
     "name": "Maagaa",
     "original_name": "Maagaa",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.11,
       "carbohydrate_g": 0,
@@ -2798,6 +3052,7 @@
     "name": "Mackerel",
     "original_name": "Mackerel",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.51,
       "carbohydrate_g": 0,
@@ -2809,6 +3064,7 @@
     "name": "Manda clathi",
     "original_name": "Manda clathi",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.27,
       "carbohydrate_g": 0,
@@ -2820,6 +3076,7 @@
     "name": "Matha",
     "original_name": "Matha",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.17,
       "carbohydrate_g": 0,
@@ -2831,6 +3088,7 @@
     "name": "Milk fish",
     "original_name": "Milk fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.66,
       "carbohydrate_g": 0,
@@ -2842,6 +3100,7 @@
     "name": "Moon fish",
     "original_name": "Moon fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.74,
       "carbohydrate_g": 0,
@@ -2853,6 +3112,7 @@
     "name": "Mullet",
     "original_name": "Mullet",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.23,
       "carbohydrate_g": 0,
@@ -2864,6 +3124,7 @@
     "name": "Mural",
     "original_name": "Mural",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.04,
       "carbohydrate_g": 0,
@@ -2875,6 +3136,7 @@
     "name": "Myil meen",
     "original_name": "Myil meen",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.89,
       "carbohydrate_g": 0,
@@ -2886,6 +3148,7 @@
     "name": "Nalla bontha",
     "original_name": "Nalla bontha",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.82,
       "carbohydrate_g": 0,
@@ -2897,6 +3160,7 @@
     "name": "Narba",
     "original_name": "Narba",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.95,
       "carbohydrate_g": 0,
@@ -2908,6 +3172,7 @@
     "name": "Paarai",
     "original_name": "Paarai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.58,
       "carbohydrate_g": 0,
@@ -2919,6 +3184,7 @@
     "name": "Padayappa",
     "original_name": "Padayappa",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.7,
       "carbohydrate_g": 0,
@@ -2930,6 +3196,7 @@
     "name": "Pali kora",
     "original_name": "Pali kora",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.25,
       "carbohydrate_g": 0,
@@ -2941,6 +3208,7 @@
     "name": "Pambada",
     "original_name": "Pambada",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.95,
       "carbohydrate_g": 0,
@@ -2952,6 +3220,7 @@
     "name": "Pandukopa",
     "original_name": "Pandukopa",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.73,
       "carbohydrate_g": 0,
@@ -2963,6 +3232,7 @@
     "name": "Parava",
     "original_name": "Parava",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.5,
       "carbohydrate_g": 0,
@@ -2974,6 +3244,7 @@
     "name": "Parcus",
     "original_name": "Parcus",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.87,
       "carbohydrate_g": 0,
@@ -2985,6 +3256,7 @@
     "name": "Parrot fish",
     "original_name": "Parrot fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.82,
       "carbohydrate_g": 0,
@@ -2996,6 +3268,7 @@
     "name": "Perinkilichai",
     "original_name": "Perinkilichai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.89,
       "carbohydrate_g": 0,
@@ -3007,6 +3280,7 @@
     "name": "Phopat",
     "original_name": "Phopat",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.05,
       "carbohydrate_g": 0,
@@ -3018,6 +3292,7 @@
     "name": "Piranha",
     "original_name": "Piranha",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.46,
       "carbohydrate_g": 0,
@@ -3029,6 +3304,7 @@
     "name": "Pomfret",
     "original_name": "Pomfret, black",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.91,
       "carbohydrate_g": 0,
@@ -3040,6 +3316,7 @@
     "name": "Pranel",
     "original_name": "Pranel",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.69,
       "carbohydrate_g": 0,
@@ -3051,6 +3328,7 @@
     "name": "Pulli paarai",
     "original_name": "Pulli paarai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.06,
       "carbohydrate_g": 0,
@@ -3062,6 +3340,7 @@
     "name": "Queen fish",
     "original_name": "Queen fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.97,
       "carbohydrate_g": 0,
@@ -3073,6 +3352,7 @@
     "name": "Raai fish",
     "original_name": "Raai fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.61,
       "carbohydrate_g": 0,
@@ -3084,6 +3364,7 @@
     "name": "Raai vanthu",
     "original_name": "Raai vanthu",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.39,
       "carbohydrate_g": 0,
@@ -3095,6 +3376,7 @@
     "name": "Rani",
     "original_name": "Rani",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.83,
       "carbohydrate_g": 0,
@@ -3106,6 +3388,7 @@
     "name": "Ray fish",
     "original_name": "Ray fish, bow head, spotted",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.03,
       "carbohydrate_g": 0,
@@ -3117,6 +3400,7 @@
     "name": "Red snapper",
     "original_name": "Red snapper",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.79,
       "carbohydrate_g": 0,
@@ -3128,6 +3412,7 @@
     "name": "Sadaya",
     "original_name": "Sadaya",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.68,
       "carbohydrate_g": 0,
@@ -3139,6 +3424,7 @@
     "name": "Salmon",
     "original_name": "Salmon",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.97,
       "carbohydrate_g": 0,
@@ -3150,6 +3436,7 @@
     "name": "Sangada",
     "original_name": "Sangada",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.26,
       "carbohydrate_g": 0,
@@ -3161,6 +3448,7 @@
     "name": "Sankata paarai",
     "original_name": "Sankata paarai",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.87,
       "carbohydrate_g": 0,
@@ -3172,6 +3460,7 @@
     "name": "Sardine",
     "original_name": "Sardine",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.91,
       "carbohydrate_g": 0,
@@ -3183,6 +3472,7 @@
     "name": "Shark",
     "original_name": "Shark",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.6,
       "carbohydrate_g": 0,
@@ -3194,6 +3484,7 @@
     "name": "Shelavu",
     "original_name": "Shelavu",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.46,
       "carbohydrate_g": 0,
@@ -3205,6 +3496,7 @@
     "name": "Silan",
     "original_name": "Silan",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.72,
       "carbohydrate_g": 0,
@@ -3216,6 +3508,7 @@
     "name": "Silk fish",
     "original_name": "Silk fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.65,
       "carbohydrate_g": 0,
@@ -3227,6 +3520,7 @@
     "name": "Silver carp",
     "original_name": "Silver carp",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.71,
       "carbohydrate_g": 0,
@@ -3238,6 +3532,7 @@
     "name": "Sole fish",
     "original_name": "Sole fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.05,
       "carbohydrate_g": 0,
@@ -3249,6 +3544,7 @@
     "name": "Stingray",
     "original_name": "Stingray",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 23.98,
       "carbohydrate_g": 0,
@@ -3260,6 +3556,7 @@
     "name": "Tarlava",
     "original_name": "Tarlava",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.72,
       "carbohydrate_g": 0,
@@ -3271,6 +3568,7 @@
     "name": "Tholam",
     "original_name": "Tholam",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.78,
       "carbohydrate_g": 0,
@@ -3282,6 +3580,7 @@
     "name": "Tilapia",
     "original_name": "Tilapia",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 18.48,
       "carbohydrate_g": 0,
@@ -3293,6 +3592,7 @@
     "name": "Tuna",
     "original_name": "Tuna",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 24.5,
       "carbohydrate_g": 0,
@@ -3304,6 +3604,7 @@
     "name": "Valava",
     "original_name": "Valava",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.8,
       "carbohydrate_g": 0,
@@ -3315,6 +3616,7 @@
     "name": "Vanjaram",
     "original_name": "Vanjaram",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.28,
       "carbohydrate_g": 0,
@@ -3326,6 +3628,7 @@
     "name": "Vela meen",
     "original_name": "Vela meen",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 22.16,
       "carbohydrate_g": 0,
@@ -3337,6 +3640,7 @@
     "name": "Vora",
     "original_name": "Vora",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.14,
       "carbohydrate_g": 0,
@@ -3348,6 +3652,7 @@
     "name": "Whale shark",
     "original_name": "Whale shark",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 21.83,
       "carbohydrate_g": 0,
@@ -3359,6 +3664,7 @@
     "name": "Xiphinis",
     "original_name": "Xiphinis",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.82,
       "carbohydrate_g": 0,
@@ -3370,6 +3676,7 @@
     "name": "Eggs",
     "original_name": "Eggs, Cat fish",
     "category": "Fish",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 24.68,
       "carbohydrate_g": 0,
@@ -3381,6 +3688,7 @@
     "name": "Crab",
     "original_name": "Crab",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10.23,
       "carbohydrate_g": 0,
@@ -3392,6 +3700,7 @@
     "name": "Lobster",
     "original_name": "Lobster, brown",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 15.96,
       "carbohydrate_g": 0,
@@ -3403,6 +3712,7 @@
     "name": "Mud crab",
     "original_name": "Mud crab",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 10,
       "carbohydrate_g": 0,
@@ -3414,6 +3724,7 @@
     "name": "Oyster",
     "original_name": "Oyster",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 9.51,
       "carbohydrate_g": 0,
@@ -3425,6 +3736,7 @@
     "name": "Tiger prawns",
     "original_name": "Tiger prawns, brown",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 14.85,
       "carbohydrate_g": 0,
@@ -3436,6 +3748,7 @@
     "name": "Clam",
     "original_name": "Clam, green shell",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 12.14,
       "carbohydrate_g": 0,
@@ -3447,6 +3760,7 @@
     "name": "Octopus",
     "original_name": "Octopus",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 14.71,
       "carbohydrate_g": 0,
@@ -3458,6 +3772,7 @@
     "name": "Squid",
     "original_name": "Squid, black",
     "category": "Other",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 16.1,
       "carbohydrate_g": 0,
@@ -3469,6 +3784,7 @@
     "name": "Catla",
     "original_name": "Catla",
     "category": "Seafood",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.94,
       "carbohydrate_g": 0,
@@ -3480,6 +3796,7 @@
     "name": "Freshwater Eel",
     "original_name": "Freshwater Eel",
     "category": "Seafood",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 20.41,
       "carbohydrate_g": 0,
@@ -3491,6 +3808,7 @@
     "name": "Gold fish",
     "original_name": "Gold fish",
     "category": "Seafood",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 16.91,
       "carbohydrate_g": 0,
@@ -3502,6 +3820,7 @@
     "name": "Pangas",
     "original_name": "Pangas",
     "category": "Seafood",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 17.12,
       "carbohydrate_g": 0,
@@ -3513,6 +3832,7 @@
     "name": "Rohu",
     "original_name": "Rohu",
     "category": "Seafood",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.71,
       "carbohydrate_g": 0,
@@ -3524,6 +3844,7 @@
     "name": "Prawns",
     "original_name": "Prawns, big",
     "category": "Seafood",
+    "state": "Raw",
     "nutrients": {
       "protein_g": 19.24,
       "carbohydrate_g": 0,
