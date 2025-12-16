@@ -1,14 +1,34 @@
 const form = document.querySelector("#food-form");
-const input = document.querySelector("#food");
+const foodInput = document.querySelector("#food");
 const quantityInput = document.querySelector("#quantity");
 const totalCaloriesEl = document.querySelector("#totalCalories");
 
+const toggle = document.querySelector("#foodToggle");
+const rawLabel = document.querySelector("#rawLabel");
+const cookedLabel = document.querySelector("#cookedLabel");
+
+let selectedType = "raw";
+
 const API_KEY = "c1QArOcc4SYlCqvg73ZsTG9Cu6nTc0MtOMazf4iv";
 
-form.addEventListener("submit", async function (e) {
+/* TOGGLE */
+toggle.addEventListener("change", () => {
+  if (toggle.checked) {
+    selectedType = "cooked";
+    cookedLabel.classList.add("active-label");
+    rawLabel.classList.remove("active-label");
+  } else {
+    selectedType = "raw";
+    rawLabel.classList.add("active-label");
+    cookedLabel.classList.remove("active-label");
+  }
+});
+
+/* FORM */
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-  const food = input.value.trim().toLowerCase();
+  const food = foodInput.value.trim().toLowerCase();
   const quantity = Number(quantityInput.value);
 
   if (!food || !quantity) {
@@ -16,40 +36,52 @@ form.addEventListener("submit", async function (e) {
     return;
   }
 
-  const api =
-    "https://api.nal.usda.gov/fdc/v1/foods/search?query=" +
-    food +
-    "&pageSize=1&api_key=" +
-    API_KEY;
+  // 🔥 IMPORTANT FIX: raw/cooked added to query
+  const api = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${food} ${selectedType}&pageSize=10&api_key=${API_KEY}`;
 
   try {
-    const response = await fetch(api);
-    const data = await response.json();
+    const res = await fetch(api);
+    const data = await res.json();
 
     if (!data.foods || data.foods.length === 0) {
       totalCaloriesEl.textContent = "Food not found";
       return;
     }
 
-    const nutrients = data.foods[0].foodNutrients;
-
-    const energyObj = nutrients.find(item =>
-      item.nutrientName.includes("Energy")
+    // Select best matching food
+    let selectedFood = data.foods.find(item =>
+      item.description.toLowerCase().includes(selectedType) &&
+      !item.description.toLowerCase().includes("canned") &&
+      !item.description.toLowerCase().includes("jar") &&
+      !item.description.toLowerCase().includes("powder") &&
+      !item.description.toLowerCase().includes("dehydrated")&&
+      !item.description.toLowerCase().includes("dried")&&
+      !item.description.toLowerCase().includes("Wild")&&
+      !item.description.toLowerCase().includes("wild")&&
+      (item.dataType === "SR Legacy" || item.dataType === "Foundation")
     );
 
-    if (!energyObj) {
-      totalCaloriesEl.textContent = "Calories data unavailable";
+    if (!selectedFood) selectedFood = data.foods[0];
+
+    const energy = selectedFood.foodNutrients.find(n =>
+      n.nutrientName.includes("Energy")
+    );
+
+    if (!energy) {
+      totalCaloriesEl.textContent = "Calories unavailable";
       return;
     }
 
-    const caloriesPer100g = energyObj.value;
-    const totalCalories = (caloriesPer100g * quantity) / 100;
+    const calories = (energy.value * quantity) / 100;
 
-    
-    totalCaloriesEl.textContent = `${totalCalories.toFixed(2)} kcal`;
+    totalCaloriesEl.innerHTML = `
+      ${calories.toFixed(2)} kcal
+      <br>
+      <small>Using: ${selectedFood.description}</small>
+    `;
 
-  } catch (error) {
+  } catch (err) {
     totalCaloriesEl.textContent = "Error fetching data";
-    console.error(error);
+    console.error(err);
   }
 });
