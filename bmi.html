@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="StyleBMI.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <h1>BMI Calculator</h1>
+        
+        <form id="bmiForm">
+            <div class="input-group">
+                <label>Weight (kg)</label>
+                <input type="number" id="weight" placeholder="0" required>
+            </div>
+            
+        <div class="input-group">
+                <label>Height</label>
+                <div class="height-inputs">
+                    <input type="number" id="feet" placeholder="Feet" required>
+                    <input type="number" id="inches" placeholder="Inches" value="0">
+                </div>
+            </div>
+
+            <button type="submit" id="calculateBtn">Calculate</button>
+        </form>
+
+        <div class="bmi-result-section">
+            <div class="bmi-text" id="bmiValueText">--</div>
+            <div class="bmi-status" id="bmiStatusText">Waiting...</div>
+        </div>
+
+        <div class="gauge-wrapper">
+            <div class="gauge-body">
+                <div class="gauge-fill"></div>
+                <div class="gauge-cover"></div>
+            </div>
+            <div class="needle" id="bmiNeedle"></div>
+        </div>
+
+        <div class="bmi-legend">
+            <div class="legend-item"><span id="dotUnder"></span> Under</div>
+            <div class="legend-item"><span id="dotHealthy"></span> Healthy</div>
+            <div class="legend-item"><span id="dotOver"></span> Over</div>
+            <div class="legend-item"><span id="dotObese"></span> Obese</div>
+        </div>
+
+    </div>
+
+    <script src="bmi.js"></script>
+</body>
+</html>
