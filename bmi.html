@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
-    <link rel="stylesheet" href="StyleBMI.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleBMI.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <i class="fas fa-carrot"></i> CalorieX
+    </a>
+
+    <div class="menu-toggle" id="mobile-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bmi.html" class="active">BMI Calculator</a></li>
+      <li><a href="#">Diet Plan</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
     <div class="app-container">
         <h1>BMI Calculator</h1>
         
@@ -50,6 +71,7 @@
         </div>
 
     </div>
+</main>
 
     <script src="bmi.js"></script>
 </body>

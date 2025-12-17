@@ -136,6 +136,18 @@ main {
   transition: 0.3s;
 }
 
+input:focus {
+    background-color: #3a3a3a;
+    border-color: #FF6B6B;
+}
+
+/* Golden-orange box-shadow on hover for inputs */
+input:hover {
+    border-color: #FF8E53;
+    box-shadow: 0 8px 20px rgba(255,142,83,0.18);
+}
+
+
 .input-group input:focus {
   outline: none;
   border-color: #f97316;
