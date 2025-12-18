@@ -1,0 +1,155 @@
+/* --- DARK THEME STYLES FOR DIET PLAN --- */
+
+/* 1. Global Reset & Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo Style (match main style.css) */
+.logo {
+  color: #f97316;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+body {
+    /* Dark Background */
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #ffffff; /* White text by default */
+}
+
+header {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+/* 2. Main Card Container */
+.app-container {
+    background: #1e1e1e; /* Dark Card Surface */
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 1px solid #333;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+/* 3. Form Styling */
+#dietForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-group {
+    text-align: left;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #b0b3b8; /* Light grey for labels */
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: 600;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #333;
+    background-color: #2c2c2c; /* Dark Input Fields */
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #ffffff; /* White text inside input */
+    outline: none;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+input:hover,
+select:hover {
+    border-color: #FF8E53;
+    box-shadow: 0 8px 20px rgba(255, 142, 83, 0.18);
+}
+
+input:focus,
+select:focus {
+    background-color: #3a3a3a;
+    border-color: #FF6B6B;
+    box-shadow: 0 10px 28px rgba(255, 107, 107, 0.12);
+}
+
+.height-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.height-inputs > div {
+    flex: 1;
+}
+
+.height-inputs > div label {
+    font-size: 0.85rem;
+}
+
+.height-inputs > div input {
+    width: 100%;
+}
+
+/* 4. Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* 5. Mobile Responsive */
+@media screen and (max-width: 400px) {
+    .app-container {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    .height-inputs {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
