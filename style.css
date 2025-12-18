@@ -71,6 +71,12 @@ header {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block; /* Show icon on mobile */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .menu-toggle:active {
+    transform: scale(1.1);
   }
 
   .nav-links {
@@ -84,24 +90,32 @@ header {
     gap: 0;
     max-height: 0; /* Hidden by default */
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.4s ease-out;
     border-bottom: 1px solid #334155;
+    z-index: 999;
   }
 
   /* JavaScript will add this class to show menu */
   .nav-links.open {
-    max-height: 200px; /* Dropdown height */
+    max-height: 300px; /* Increased height for all items */
   }
 
   .nav-links li {
     width: 100%;
     text-align: center;
+    border-bottom: 1px solid #334155;
   }
 
   .nav-links a {
     display: block;
     padding: 15px;
-    border-top: 1px solid #334155;
+    color: #cbd5e1;
+    transition: all 0.3s;
+  }
+
+  .nav-links a:hover, .nav-links a.active {
+    background-color: #0f172a;
+    color: #f97316;
   }
 }
 
