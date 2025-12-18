@@ -28,6 +28,13 @@ form.addEventListener("submit", (event) => {
     const bmi = weight / (heightInMeters * heightInMeters);
     console.log("Calculated BMI:", bmi); 
 
+    // Store BMI metrics in localStorage for AI Chat
+    localStorage.setItem("userMetrics", JSON.stringify({
+      weight: weight,
+      heightFeet: feet,
+      heightInches: inches,
+      bmi: bmi
+    }));
   
 updateGauge(bmi);
 

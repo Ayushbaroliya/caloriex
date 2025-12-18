@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Nutritionuist - CalorieX</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .ai-page-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+      gap: 20px;
+    }
+
+    .ai-page-header {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .ai-page-header h1 {
+      font-size: 32px;
+      color: #e2e8f0;
+      margin: 0 0 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .ai-page-header i {
+      color: #22c55e;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .ai-page-header p {
+      color: #94a3b8;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .ai-chat-container {
+      flex: 1;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border-radius: 20px;
+      border: 2px solid #22c55e;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 80px rgba(34, 197, 94, 0.2);
+      overflow: hidden;
+    }
+
+    .ai-page-input-area {
+      padding: 20px;
+      border-top: 2px solid #334155;
+      background: #1e293b;
+      display: flex;
+      gap: 12px;
+      border-radius: 0 0 18px 18px;
+    }
+
+    #aiInput {
+      flex: 1;
+      padding: 14px 16px;
+      border: 2px solid #334155;
+      background-color: #0f172a;
+      color: #fff;
+      border-radius: 12px;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.3s;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+
+    #aiInput::placeholder {
+      color: #64748b;
+    }
+
+    #aiInput:focus {
+      border-color: #22c55e;
+      box-shadow: 0 0 12px rgba(34, 197, 94, 0.3);
+      background-color: #1e293b;
+    }
+
+    #aiSendBtn {
+      padding: 14px 20px;
+      background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 700;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 50px;
+      box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+    }
+
+    #aiSendBtn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4);
+    }
+
+    #aiSendBtn:active {
+      transform: translateY(0);
+    }
+
+    main {
+      padding-top: 80px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 600px) {
+      .ai-page-container {
+        padding: 10px;
+        gap: 15px;
+        height: calc(100vh - 70px);
+      }
+
+      .ai-page-header h1 {
+        font-size: 24px;
+      }
+
+      main {
+        padding-top: 70px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <i class="fas fa-carrot"></i> CalorieX
+    </a>
+
+    <div class="menu-toggle" id="mobile-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bmi.html">BMI Calculator</a></li>
+      <li><a href="dietPlan.html">Diet Plan</a></li>
+      <li><a href="ai-nutritionist.html" class="active ai-btn"><i class="fas fa-robot"></i> AI Nutritionuist</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="ai-page-container">
+    <div class="ai-page-header">
+      <h1><i class="fas fa-robot"></i> AI Nutritionuist</h1>
+      <p>Your personalized nutrition assistant powered by AI</p>
+    </div>
+
+    <div class="ai-chat-container">
+      <div id="aiChatBox" class="ai-chat-box">
+        <div class="ai-message">
+          <p>👋 Hi! I'm your AI nutrition assistant. Ask me anything about your diet, nutrition, or fitness goals!</p>
+        </div>
+      </div>
+      
+      <div class="ai-page-input-area">
+        <input type="text" id="aiInput" placeholder="Type your question here..." />
+        <button id="aiSendBtn"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="nav.js"></script>
+<script src="ai-chat.js"></script>
+</body>
+</html>

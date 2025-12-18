@@ -130,10 +130,4 @@ async function fetchFromUSDA(query, quantity) {
 }
 
 
-// --- MOBILE MENU LOGIC ---
-const mobileMenuBtn = document.getElementById('mobile-menu');
-const navLinks = document.getElementById('nav-links');
-
-mobileMenuBtn.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-});
+// Note: mobile menu logic moved to `nav.js` so it can be shared across pages.
