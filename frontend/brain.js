@@ -14,7 +14,7 @@ const resCarbs = document.querySelector("#resCarbs");
 const resSource = document.querySelector("#resSource");
 
 // Backend URL
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://vercel.com/ayushbaroliyas-projects/caloriex-wd1d/5F49B4dPdN4EeFZHWehVeJeTBDRz";
 
 let selectedType = "raw";
 let indianFoods = [];
