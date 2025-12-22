@@ -1,7 +1,7 @@
 let messageInput, sendButton, chatBox;
 
 // Backend URL
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://vercel.com/ayushbaroliyas-projects/caloriex-wd1d/5F49B4dPdN4EeFZHWehVeJeTBDRz";
 
 // Wait for DOM to be ready
 document.addEventListener('DOMContentLoaded', initAIChat);
