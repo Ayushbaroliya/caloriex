@@ -9,7 +9,7 @@ const resultDiv = document.getElementById("dietResult");
 const dietPlanContainer = document.getElementById("dietPlanContainer");
 
 // Backend URL - Change this to your server URL (localhost:5000 for development, your domain for production)
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://vercel.com/ayushbaroliyas-projects/caloriex-wd1d/5F49B4dPdN4EeFZHWehVeJeTBDRz";
 
 form.addEventListener("submit", async function(event) {
   event.preventDefault();
