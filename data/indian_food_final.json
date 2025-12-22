@@ -1,0 +1,5304 @@
+[
+    {
+        "name": "Aloo Gobi",
+        "original_name": "Potato cauliflower curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.4,
+            "carbohydrate_g": 18,
+            "energy_kcal": 125
+        }
+    },
+    {
+        "name": "Gobi Masala",
+        "original_name": "Cauliflower masala curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.6,
+            "carbohydrate_g": 14,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Aloo Matar",
+        "original_name": "Potato green peas curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 20,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Matar Paneer",
+        "original_name": "Cottage cheese with peas",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 11.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 210
+        }
+    },
+    {
+        "name": "Shahi Paneer",
+        "original_name": "Paneer in rich gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.5,
+            "carbohydrate_g": 15,
+            "energy_kcal": 260
+        }
+    },
+    {
+        "name": "Kadai Paneer",
+        "original_name": "Spicy paneer curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 10.5,
+            "carbohydrate_g": 13,
+            "energy_kcal": 220
+        }
+    },
+    {
+        "name": "Paneer Tikka",
+        "original_name": "Grilled paneer cubes",
+        "category": "Snacks",
+        "state": "Grilled",
+        "nutrients": {
+            "protein_g": 18.0,
+            "carbohydrate_g": 6,
+            "energy_kcal": 280
+        }
+    },
+    {
+        "name": "Vegetable Korma",
+        "original_name": "Mixed vegetables in mild gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.2,
+            "carbohydrate_g": 16,
+            "energy_kcal": 165
+        }
+    },
+    {
+        "name": "Navratan Korma",
+        "original_name": "Nine-vegetable curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 190
+        }
+    },
+    {
+        "name": "Mix Veg Dry",
+        "original_name": "Dry mixed vegetable curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 110
+        }
+    },
+    {
+        "name": "Rajgira Roti",
+        "original_name": "Amaranth flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 46,
+            "energy_kcal": 250
+        }
+    },
+    {
+        "name": "Jowar Roti",
+        "original_name": "Sorghum flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 46,
+            "energy_kcal": 245
+        }
+    },
+    {
+        "name": "Bajra Roti",
+        "original_name": "Pearl millet flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 45,
+            "energy_kcal": 240
+        }
+    },
+    {
+        "name": "Makki Roti",
+        "original_name": "Maize flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 48,
+            "energy_kcal": 270
+        }
+    },
+    {
+        "name": "Thepla",
+        "original_name": "Gujarati spiced flatbread",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 42,
+            "energy_kcal": 280
+        }
+    },
+    {
+        "name": "Handvo",
+        "original_name": "Savory lentil cake",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 26,
+            "energy_kcal": 180
+        }
+    },
+    {
+        "name": "Dhokla",
+        "original_name": "Steamed gram flour cake",
+        "category": "Snacks",
+        "state": "Steamed",
+        "nutrients": {
+            "protein_g": 7.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Khandvi",
+        "original_name": "Rolled gram flour snack",
+        "category": "Snacks",
+        "state": "Steamed",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 18,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Patra",
+        "original_name": "Colocasia leaf rolls",
+        "category": "Snacks",
+        "state": "Steamed",
+        "nutrients": {
+            "protein_g": 5.5,
+            "carbohydrate_g": 22,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Undhiyu",
+        "original_name": "Gujarati mixed vegetable dish",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 185
+        }
+    },
+    {
+        "name": "Vegetable Pulao (Brown Rice)",
+        "original_name": "Brown rice with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.8,
+            "carbohydrate_g": 30,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Vegetable Fried Rice",
+        "original_name": "Stir fried rice with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 33,
+            "energy_kcal": 180
+        }
+    },
+    {
+        "name": "Vegetable Biryani",
+        "original_name": "Spiced vegetable rice",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 34,
+            "energy_kcal": 190
+        }
+    },
+    {
+        "name": "Paneer Pulao",
+        "original_name": "Rice cooked with paneer",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 32,
+            "energy_kcal": 210
+        }
+    },
+    {
+        "name": "Curd Based Vegetable Curry",
+        "original_name": "Vegetables cooked in yogurt gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 12,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Vegetable Omelette (Besan)",
+        "original_name": "Gram flour vegetable pancake",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Besan Chilla",
+        "original_name": "Gram flour pancake",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Moong Dal Chilla",
+        "original_name": "Green gram pancake",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.0,
+            "carbohydrate_g": 17,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Vegetable Idiyappam",
+        "original_name": "Rice noodle dish",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 26,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Vegetable Appam",
+        "original_name": "Fermented rice pancake with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.8,
+            "carbohydrate_g": 25,
+            "energy_kcal": 130
+        }
+    },
+    {
+        "name": "Vegetable Upma",
+        "original_name": "Semolina upma with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.5,
+            "carbohydrate_g": 21,
+            "energy_kcal": 125
+        }
+    },
+    {
+        "name": "Oats Upma",
+        "original_name": "Oats cooked with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 115
+        }
+    },
+    {
+        "name": "Vegetable Poha",
+        "original_name": "Flattened rice with vegetables",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 24,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Dalia",
+        "original_name": "Broken wheat porridge",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.6,
+            "carbohydrate_g": 22,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Vegetable Dalia",
+        "original_name": "Broken wheat with vegetables",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 23,
+            "energy_kcal": 125
+        }
+    },
+    {
+        "name": "Vegetable Khichdi",
+        "original_name": "Rice and lentils with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.0,
+            "carbohydrate_g": 21,
+            "energy_kcal": 130
+        }
+    },
+    {
+        "name": "Moong Dal Khichdi",
+        "original_name": "Rice and green gram porridge",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Curd Rice",
+        "original_name": "Rice mixed with yogurt",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 20,
+            "energy_kcal": 140
+        }
+    },
+    {
+        "name": "Lemon Rice",
+        "original_name": "Rice with lemon and spices",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 30,
+            "energy_kcal": 165
+        }
+    },
+    {
+        "name": "Tamarind Rice",
+        "original_name": "Rice with tamarind paste",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.2,
+            "carbohydrate_g": 32,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Vegetable Sambar",
+        "original_name": "Lentil vegetable stew",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 13,
+            "energy_kcal": 85
+        }
+    },
+    {
+        "name": "Rasam",
+        "original_name": "Spiced tamarind soup",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.5,
+            "carbohydrate_g": 6,
+            "energy_kcal": 40
+        }
+    },
+    {
+        "name": "Vegetable Stew",
+        "original_name": "Mixed vegetables in coconut gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 12,
+            "energy_kcal": 95
+        }
+    },
+    {
+        "name": "Avial",
+        "original_name": "Mixed vegetables with coconut",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 110
+        }
+    },
+    {
+        "name": "Poriyal",
+        "original_name": "South Indian vegetable stir fry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.8,
+            "carbohydrate_g": 10,
+            "energy_kcal": 90
+        }
+    },
+    {
+        "name": "Cabbage Sabzi",
+        "original_name": "Stir fried cabbage",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.5,
+            "carbohydrate_g": 8,
+            "energy_kcal": 65
+        }
+    },
+    {
+        "name": "Carrot Peas Sabzi",
+        "original_name": "Carrot and green peas curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 12,
+            "energy_kcal": 85
+        }
+    },
+    {
+        "name": "Gajar Matar",
+        "original_name": "Carrot peas stir fry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.3,
+            "carbohydrate_g": 11,
+            "energy_kcal": 80
+        }
+    },
+    {
+        "name": "Palak Sabzi",
+        "original_name": "Spinach curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.9,
+            "carbohydrate_g": 7,
+            "energy_kcal": 75
+        }
+    },
+    {
+        "name": "Methi Sabzi",
+        "original_name": "Fenugreek leaves curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.2,
+            "carbohydrate_g": 8,
+            "energy_kcal": 80
+        }
+    },
+    {
+        "name": "Chana Dal",
+        "original_name": "Split chickpea lentils",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.0,
+            "carbohydrate_g": 25,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Moong Dal",
+        "original_name": "Green gram lentils",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 140
+        }
+    },
+    {
+        "name": "Masoor Dal",
+        "original_name": "Red lentils",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.0,
+            "carbohydrate_g": 20,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Toor Dal",
+        "original_name": "Pigeon pea lentils",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.8,
+            "carbohydrate_g": 21,
+            "energy_kcal": 145
+        }
+    },
+    {
+        "name": "Sprouts Curry",
+        "original_name": "Mixed sprouts gravy",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.5,
+            "carbohydrate_g": 18,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Sprouts Salad",
+        "original_name": "Mixed sprouts salad",
+        "category": "Salads",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 20,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Chana Salad",
+        "original_name": "Boiled chickpea salad",
+        "category": "Salads",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 27,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Vegetable Sandwich",
+        "original_name": "Bread with vegetables",
+        "category": "Snacks",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 40,
+            "energy_kcal": 250
+        }
+    },
+    {
+        "name": "Veg Cutlet",
+        "original_name": "Vegetable patty",
+        "category": "Snacks",
+        "state": "Fried",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 28,
+            "energy_kcal": 260
+        }
+    },
+    {
+        "name": "Paneer Bhurji",
+        "original_name": "Scrambled cottage cheese",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 17.0,
+            "carbohydrate_g": 6,
+            "energy_kcal": 230
+        }
+    },
+    {
+        "name": "Vegetable Pulao",
+        "original_name": "Rice cooked with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.5,
+            "carbohydrate_g": 32,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Amaranth seed",
+        "original_name": "Amaranth seed, black",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 14.59,
+            "carbohydrate_g": 59.98,
+            "energy_kcal": 356
+        }
+    },
+    {
+        "name": "Bajra",
+        "original_name": "Bajra",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.96,
+            "carbohydrate_g": 61.78,
+            "energy_kcal": 348
+        }
+    },
+    {
+        "name": "Barley",
+        "original_name": "Barley",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.94,
+            "carbohydrate_g": 61.29,
+            "energy_kcal": 316
+        }
+    },
+    {
+        "name": "Jowar",
+        "original_name": "Jowar",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 9.97,
+            "carbohydrate_g": 67.68,
+            "energy_kcal": 334
+        }
+    },
+    {
+        "name": "Maize",
+        "original_name": "Maize, dry",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 8.8,
+            "carbohydrate_g": 64.77,
+            "energy_kcal": 334
+        }
+    },
+    {
+        "name": "Quinoa",
+        "original_name": "Quinoa",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 13.11,
+            "carbohydrate_g": 53.65,
+            "energy_kcal": 328
+        }
+    },
+    {
+        "name": "Ragi",
+        "original_name": "Ragi",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 7.16,
+            "carbohydrate_g": 66.82,
+            "energy_kcal": 321
+        }
+    },
+    {
+        "name": "Rice flakes",
+        "original_name": "Rice flakes",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 7.44,
+            "carbohydrate_g": 76.75,
+            "energy_kcal": 354
+        }
+    },
+    {
+        "name": "Rice puffed",
+        "original_name": "Rice puffed",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 7.47,
+            "carbohydrate_g": 77.68,
+            "energy_kcal": 362
+        }
+    },
+    {
+        "name": "Rice",
+        "original_name": "Rice, raw, brown",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 9.16,
+            "carbohydrate_g": 74.8,
+            "energy_kcal": 354
+        }
+    },
+    {
+        "name": "Samai",
+        "original_name": "Samai",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.13,
+            "carbohydrate_g": 65.55,
+            "energy_kcal": 346
+        }
+    },
+    {
+        "name": "Varagu",
+        "original_name": "Varagu",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 8.92,
+            "carbohydrate_g": 66.19,
+            "energy_kcal": 332
+        }
+    },
+    {
+        "name": "Wheat flour",
+        "original_name": "Wheat flour, refined",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.36,
+            "carbohydrate_g": 74.27,
+            "energy_kcal": 352
+        }
+    },
+    {
+        "name": "Wheat",
+        "original_name": "Wheat, whole",
+        "category": "Cereals",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.59,
+            "carbohydrate_g": 64.72,
+            "energy_kcal": 322
+        }
+    },
+    {
+        "name": "Bengal gram",
+        "original_name": "Bengal gram, dal",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.55,
+            "carbohydrate_g": 46.72,
+            "energy_kcal": 329
+        }
+    },
+    {
+        "name": "Black gram",
+        "original_name": "Black gram, dal",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.06,
+            "carbohydrate_g": 51,
+            "energy_kcal": 324
+        }
+    },
+    {
+        "name": "Cowpea",
+        "original_name": "Cowpea, brown",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.36,
+            "carbohydrate_g": 54.62,
+            "energy_kcal": 320
+        }
+    },
+    {
+        "name": "Field bean",
+        "original_name": "Field bean, black",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.93,
+            "carbohydrate_g": 43.46,
+            "energy_kcal": 276
+        }
+    },
+    {
+        "name": "Green gram",
+        "original_name": "Green gram, dal",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.88,
+            "carbohydrate_g": 52.59,
+            "energy_kcal": 326
+        }
+    },
+    {
+        "name": "Horse gram",
+        "original_name": "Horse gram, whole",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.73,
+            "carbohydrate_g": 57.24,
+            "energy_kcal": 330
+        }
+    },
+    {
+        "name": "Lentil dal",
+        "original_name": "Lentil dal",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 24.35,
+            "carbohydrate_g": 52.53,
+            "energy_kcal": 322
+        }
+    },
+    {
+        "name": "Lentil whole",
+        "original_name": "Lentil whole, brown",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.49,
+            "carbohydrate_g": 48.47,
+            "energy_kcal": 299
+        }
+    },
+    {
+        "name": "Moth bean",
+        "original_name": "Moth bean",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.75,
+            "carbohydrate_g": 52.09,
+            "energy_kcal": 309
+        }
+    },
+    {
+        "name": "Peas",
+        "original_name": "Peas, dry",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.43,
+            "carbohydrate_g": 48.93,
+            "energy_kcal": 303
+        }
+    },
+    {
+        "name": "Rajmah",
+        "original_name": "Rajmah, black",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.01,
+            "carbohydrate_g": 49.59,
+            "energy_kcal": 298
+        }
+    },
+    {
+        "name": "Red gram",
+        "original_name": "Red gram, dal",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.7,
+            "carbohydrate_g": 55.23,
+            "energy_kcal": 331
+        }
+    },
+    {
+        "name": "Ricebean",
+        "original_name": "Ricebean",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.97,
+            "carbohydrate_g": 51.26,
+            "energy_kcal": 302
+        }
+    },
+    {
+        "name": "Soya bean",
+        "original_name": "Soya bean, brown",
+        "category": "Pulses",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 35.58,
+            "carbohydrate_g": 12.79,
+            "energy_kcal": 381
+        }
+    },
+    {
+        "name": "Agathi leaves",
+        "original_name": "Agathi leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 8.01,
+            "carbohydrate_g": 5.21,
+            "energy_kcal": 71
+        }
+    },
+    {
+        "name": "Amaranth leaves",
+        "original_name": "Amaranth leaves, green",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.29,
+            "carbohydrate_g": 2.28,
+            "energy_kcal": 31
+        }
+    },
+    {
+        "name": "Amaranth spinosus",
+        "original_name": "Amaranth spinosus, leaves, green mix",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.54,
+            "carbohydrate_g": 1.61,
+            "energy_kcal": 26
+        }
+    },
+    {
+        "name": "Basella leaves",
+        "original_name": "Basella leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.57,
+            "carbohydrate_g": 2.01,
+            "energy_kcal": 20
+        }
+    },
+    {
+        "name": "Bathua leaves",
+        "original_name": "Bathua leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 2.56,
+            "energy_kcal": 28
+        }
+    },
+    {
+        "name": "Beet greens",
+        "original_name": "Beet greens",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.38,
+            "carbohydrate_g": 3.86,
+            "energy_kcal": 35
+        }
+    },
+    {
+        "name": "Betel leaves",
+        "original_name": "Betel leaves, big (kolkata)",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.51,
+            "carbohydrate_g": 7.37,
+            "energy_kcal": 48
+        }
+    },
+    {
+        "name": "Brussels sprouts",
+        "original_name": "Brussels sprouts",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 4.26,
+            "carbohydrate_g": 5.09,
+            "energy_kcal": 44
+        }
+    },
+    {
+        "name": "Cabbage",
+        "original_name": "Cabbage, Chinese",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.58,
+            "carbohydrate_g": 2.36,
+            "energy_kcal": 18
+        }
+    },
+    {
+        "name": "Cauliflower leaves",
+        "original_name": "Cauliflower leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.9,
+            "carbohydrate_g": 3.39,
+            "energy_kcal": 35
+        }
+    },
+    {
+        "name": "Colocasia leaves",
+        "original_name": "Colocasia leaves, green",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.42,
+            "carbohydrate_g": 3.69,
+            "energy_kcal": 43
+        }
+    },
+    {
+        "name": "Drumstick leaves",
+        "original_name": "Drumstick leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 6.41,
+            "carbohydrate_g": 5.62,
+            "energy_kcal": 67
+        }
+    },
+    {
+        "name": "Fenugreek leaves",
+        "original_name": "Fenugreek leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.68,
+            "carbohydrate_g": 2.17,
+            "energy_kcal": 34
+        }
+    },
+    {
+        "name": "Garden cress",
+        "original_name": "Garden cress",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 5.62,
+            "carbohydrate_g": 4.48,
+            "energy_kcal": 50
+        }
+    },
+    {
+        "name": "Gogu leaves",
+        "original_name": "Gogu leaves, green",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.86,
+            "carbohydrate_g": 4.06,
+            "energy_kcal": 36
+        }
+    },
+    {
+        "name": "Knol-Khol",
+        "original_name": "Knol-Khol, leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.12,
+            "carbohydrate_g": 6.16,
+            "energy_kcal": 43
+        }
+    },
+    {
+        "name": "Lettuce",
+        "original_name": "Lettuce",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.54,
+            "carbohydrate_g": 3.01,
+            "energy_kcal": 22
+        }
+    },
+    {
+        "name": "Mustard leaves",
+        "original_name": "Mustard leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.52,
+            "carbohydrate_g": 2.41,
+            "energy_kcal": 30
+        }
+    },
+    {
+        "name": "Pak Choi leaves",
+        "original_name": "Pak Choi leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.41,
+            "carbohydrate_g": 1.78,
+            "energy_kcal": 16
+        }
+    },
+    {
+        "name": "Parsley",
+        "original_name": "Parsley",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 5.55,
+            "carbohydrate_g": 9.43,
+            "energy_kcal": 73
+        }
+    },
+    {
+        "name": "Ponnaganni",
+        "original_name": "Ponnaganni",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 5.29,
+            "carbohydrate_g": 5.17,
+            "energy_kcal": 51
+        }
+    },
+    {
+        "name": "Pumpkin leaves",
+        "original_name": "Pumpkin leaves, tender",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 4.21,
+            "carbohydrate_g": 4.75,
+            "energy_kcal": 44
+        }
+    },
+    {
+        "name": "Radish leaves",
+        "original_name": "Radish leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.22,
+            "carbohydrate_g": 2.77,
+            "energy_kcal": 26
+        }
+    },
+    {
+        "name": "Rumex leaves",
+        "original_name": "Rumex leaves",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.62,
+            "carbohydrate_g": 2.33,
+            "energy_kcal": 20
+        }
+    },
+    {
+        "name": "Spinach",
+        "original_name": "Spinach",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.14,
+            "carbohydrate_g": 2.05,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Tamarind leaves",
+        "original_name": "Tamarind leaves, tender",
+        "category": "Leafy Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 5.84,
+            "carbohydrate_g": 10.04,
+            "energy_kcal": 71
+        }
+    },
+    {
+        "name": "Ash gourd",
+        "original_name": "Ash gourd",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.79,
+            "carbohydrate_g": 2.84,
+            "energy_kcal": 17
+        }
+    },
+    {
+        "name": "Bamboo shoot",
+        "original_name": "Bamboo shoot, tender",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.33,
+            "carbohydrate_g": 1.67,
+            "energy_kcal": 16
+        }
+    },
+    {
+        "name": "Bean scarlet",
+        "original_name": "Bean scarlet, tender",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.86,
+            "carbohydrate_g": 5.16,
+            "energy_kcal": 43
+        }
+    },
+    {
+        "name": "Bitter gourd",
+        "original_name": "Bitter gourd, jagged, teeth ridges, elongate",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.44,
+            "carbohydrate_g": 2.82,
+            "energy_kcal": 21
+        }
+    },
+    {
+        "name": "Bottle gourd",
+        "original_name": "Bottle gourd, elongate, pale green",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.53,
+            "carbohydrate_g": 1.68,
+            "energy_kcal": 11
+        }
+    },
+    {
+        "name": "Brinjal-1",
+        "original_name": "Brinjal-1",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.77,
+            "carbohydrate_g": 3.49,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Brinjal-2",
+        "original_name": "Brinjal-2",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.82,
+            "carbohydrate_g": 2.71,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Brinjal-3",
+        "original_name": "Brinjal-3",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.36,
+            "carbohydrate_g": 3.38,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Brinjal-4",
+        "original_name": "Brinjal-4",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.51,
+            "carbohydrate_g": 3.19,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Brinjal-5",
+        "original_name": "Brinjal-5",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.38,
+            "carbohydrate_g": 4.02,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Brinjal-6",
+        "original_name": "Brinjal-6",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.46,
+            "carbohydrate_g": 3.29,
+            "energy_kcal": 23
+        }
+    },
+    {
+        "name": "Brinjal-7",
+        "original_name": "Brinjal-7",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.4,
+            "carbohydrate_g": 3.1,
+            "energy_kcal": 23
+        }
+    },
+    {
+        "name": "Brinjal-8",
+        "original_name": "Brinjal-8",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.82,
+            "carbohydrate_g": 3.75,
+            "energy_kcal": 28
+        }
+    },
+    {
+        "name": "Brinjal-9",
+        "original_name": "Brinjal-9",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.47,
+            "carbohydrate_g": 3.52,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Brinjal-10",
+        "original_name": "Brinjal-10",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.68,
+            "carbohydrate_g": 4.08,
+            "energy_kcal": 28
+        }
+    },
+    {
+        "name": "Brinjal-11",
+        "original_name": "Brinjal-11",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.43,
+            "carbohydrate_g": 3.53,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Brinjal-12",
+        "original_name": "Brinjal-12",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.6,
+            "carbohydrate_g": 2.73,
+            "energy_kcal": 22
+        }
+    },
+    {
+        "name": "Brinjal-13",
+        "original_name": "Brinjal-13",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.49,
+            "carbohydrate_g": 4.51,
+            "energy_kcal": 30
+        }
+    },
+    {
+        "name": "Brinjal-14",
+        "original_name": "Brinjal-14",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.56,
+            "carbohydrate_g": 3.27,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Brinjal-15",
+        "original_name": "Brinjal-15",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.58,
+            "carbohydrate_g": 3.96,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Brinjal-16",
+        "original_name": "Brinjal-16",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.26,
+            "carbohydrate_g": 3.46,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Brinjal-17",
+        "original_name": "Brinjal-17",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.18,
+            "carbohydrate_g": 2.89,
+            "energy_kcal": 22
+        }
+    },
+    {
+        "name": "Brinjal-18",
+        "original_name": "Brinjal-18",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.47,
+            "carbohydrate_g": 4.1,
+            "energy_kcal": 28
+        }
+    },
+    {
+        "name": "Brinjal-19",
+        "original_name": "Brinjal-19",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.26,
+            "carbohydrate_g": 3.39,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Brinjal-20",
+        "original_name": "Brinjal-20",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.44,
+            "carbohydrate_g": 3.15,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Brinjal-21",
+        "original_name": "Brinjal-21",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.36,
+            "carbohydrate_g": 3.93,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Brinjal - all varieties",
+        "original_name": "Brinjal - all varieties",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.48,
+            "carbohydrate_g": 3.52,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Broad beans",
+        "original_name": "Broad beans",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.85,
+            "carbohydrate_g": 2.11,
+            "energy_kcal": 29
+        }
+    },
+    {
+        "name": "Capsicum",
+        "original_name": "Capsicum, green",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.11,
+            "carbohydrate_g": 1.84,
+            "energy_kcal": 16
+        }
+    },
+    {
+        "name": "Cauliflower",
+        "original_name": "Cauliflower",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.15,
+            "carbohydrate_g": 2.03,
+            "energy_kcal": 23
+        }
+    },
+    {
+        "name": "Celery stalk",
+        "original_name": "Celery stalk",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.98,
+            "carbohydrate_g": 2.33,
+            "energy_kcal": 16
+        }
+    },
+    {
+        "name": "Cho-cho-marrow",
+        "original_name": "Cho-cho-marrow",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.66,
+            "carbohydrate_g": 3.47,
+            "energy_kcal": 19
+        }
+    },
+    {
+        "name": "Cluster beans",
+        "original_name": "Cluster beans",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.55,
+            "carbohydrate_g": 4.91,
+            "energy_kcal": 40
+        }
+    },
+    {
+        "name": "Colocasia",
+        "original_name": "Colocasia, stem, black",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.76,
+            "carbohydrate_g": 3.83,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Corn",
+        "original_name": "Corn, Baby",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.69,
+            "carbohydrate_g": 11.66,
+            "energy_kcal": 73
+        }
+    },
+    {
+        "name": "Cucumber",
+        "original_name": "Cucumber, green, elongate",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.71,
+            "carbohydrate_g": 3.48,
+            "energy_kcal": 20
+        }
+    },
+    {
+        "name": "Drumstick",
+        "original_name": "Drumstick",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.62,
+            "carbohydrate_g": 3.76,
+            "energy_kcal": 29
+        }
+    },
+    {
+        "name": "Field beans",
+        "original_name": "Field beans, tender, broad",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.06,
+            "carbohydrate_g": 2.75,
+            "energy_kcal": 31
+        }
+    },
+    {
+        "name": "French beans",
+        "original_name": "French beans, country",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.49,
+            "carbohydrate_g": 2.68,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Jack fruit",
+        "original_name": "Jack fruit, raw",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.98,
+            "carbohydrate_g": 3.48,
+            "energy_kcal": 26
+        }
+    },
+    {
+        "name": "Knol - Khol",
+        "original_name": "Knol - Khol",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.58,
+            "carbohydrate_g": 1.39,
+            "energy_kcal": 16
+        }
+    },
+    {
+        "name": "Kovai",
+        "original_name": "Kovai, big",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.39,
+            "carbohydrate_g": 2.01,
+            "energy_kcal": 17
+        }
+    },
+    {
+        "name": "Ladies finger",
+        "original_name": "Ladies finger",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.08,
+            "carbohydrate_g": 3.62,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Mango",
+        "original_name": "Mango, green, raw",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.69,
+            "carbohydrate_g": 10.59,
+            "energy_kcal": 49
+        }
+    },
+    {
+        "name": "Onion",
+        "original_name": "Onion, stalk",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.07,
+            "carbohydrate_g": 2.99,
+            "energy_kcal": 26
+        }
+    },
+    {
+        "name": "Papaya",
+        "original_name": "Papaya, raw",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.5,
+            "carbohydrate_g": 4.4,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Parwar",
+        "original_name": "Parwar",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.4,
+            "carbohydrate_g": 3.54,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Plantain",
+        "original_name": "Plantain, flower",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.47,
+            "carbohydrate_g": 2.15,
+            "energy_kcal": 21
+        }
+    },
+    {
+        "name": "Pumpkin",
+        "original_name": "Pumpkin, green, cylindrical",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.87,
+            "carbohydrate_g": 4.22,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Ridge gourd",
+        "original_name": "Ridge gourd",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.91,
+            "carbohydrate_g": 1.72,
+            "energy_kcal": 13
+        }
+    },
+    {
+        "name": "Snake gourd",
+        "original_name": "Snake gourd, long, pale green",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.98,
+            "carbohydrate_g": 1.27,
+            "energy_kcal": 12
+        }
+    },
+    {
+        "name": "Tinda",
+        "original_name": "Tinda, tender",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.02,
+            "carbohydrate_g": 1.9,
+            "energy_kcal": 14
+        }
+    },
+    {
+        "name": "Tomato",
+        "original_name": "Tomato, green",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.12,
+            "carbohydrate_g": 3.18,
+            "energy_kcal": 21
+        }
+    },
+    {
+        "name": "Zucchini",
+        "original_name": "Zucchini, green",
+        "category": "Other Veg",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.1,
+            "carbohydrate_g": 2.33,
+            "energy_kcal": 20
+        }
+    },
+    {
+        "name": "Apple",
+        "original_name": "Apple, big",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.29,
+            "carbohydrate_g": 13.11,
+            "energy_kcal": 62
+        }
+    },
+    {
+        "name": "Apricot",
+        "original_name": "Apricot, dried",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.17,
+            "carbohydrate_g": 72.63,
+            "energy_kcal": 316
+        }
+    },
+    {
+        "name": "Avocado fruit",
+        "original_name": "Avocado fruit",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.95,
+            "carbohydrate_g": 1.75,
+            "energy_kcal": 144
+        }
+    },
+    {
+        "name": "Bael fruit",
+        "original_name": "Bael fruit",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.63,
+            "carbohydrate_g": 28.21,
+            "energy_kcal": 136
+        }
+    },
+    {
+        "name": "Banana",
+        "original_name": "Banana, ripe, montham",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.25,
+            "carbohydrate_g": 24.95,
+            "energy_kcal": 111
+        }
+    },
+    {
+        "name": "Black berry",
+        "original_name": "Black berry",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.92,
+            "carbohydrate_g": 10.64,
+            "energy_kcal": 54
+        }
+    },
+    {
+        "name": "Cherries",
+        "original_name": "Cherries, red",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.49,
+            "carbohydrate_g": 11.87,
+            "energy_kcal": 60
+        }
+    },
+    {
+        "name": "Currants",
+        "original_name": "Currants, black",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.51,
+            "carbohydrate_g": 9.93,
+            "energy_kcal": 54
+        }
+    },
+    {
+        "name": "Custard apple",
+        "original_name": "Custard apple",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.62,
+            "carbohydrate_g": 20.38,
+            "energy_kcal": 99
+        }
+    },
+    {
+        "name": "Dates",
+        "original_name": "Dates, dry, pale brown",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.45,
+            "carbohydrate_g": 74.91,
+            "energy_kcal": 320
+        }
+    },
+    {
+        "name": "Fig",
+        "original_name": "Fig",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.03,
+            "carbohydrate_g": 16.28,
+            "energy_kcal": 82
+        }
+    },
+    {
+        "name": "Goosberry",
+        "original_name": "Goosberry",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.34,
+            "carbohydrate_g": 4.39,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Grapes",
+        "original_name": "Grapes, seeded, round, black",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.76,
+            "carbohydrate_g": 13.23,
+            "energy_kcal": 61
+        }
+    },
+    {
+        "name": "Guava",
+        "original_name": "Guava, white flesh",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.44,
+            "carbohydrate_g": 5.13,
+            "energy_kcal": 32
+        }
+    },
+    {
+        "name": "Jambu fruit",
+        "original_name": "Jambu fruit, ripe",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.82,
+            "carbohydrate_g": 12.3,
+            "energy_kcal": 56
+        }
+    },
+    {
+        "name": "Karonda fruit",
+        "original_name": "Karonda fruit",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.15,
+            "carbohydrate_g": 2.87,
+            "energy_kcal": 34
+        }
+    },
+    {
+        "name": "Lemon",
+        "original_name": "Lemon, juice",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.41,
+            "carbohydrate_g": 0,
+            "energy_kcal": 37
+        }
+    },
+    {
+        "name": "Lime",
+        "original_name": "Lime, sweet, pulp",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.76,
+            "carbohydrate_g": 5.18,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Litchi",
+        "original_name": "Litchi",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.99,
+            "carbohydrate_g": 11.41,
+            "energy_kcal": 54
+        }
+    },
+    {
+        "name": "Mangosteen",
+        "original_name": "Mangosteen",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.63,
+            "carbohydrate_g": 11.41,
+            "energy_kcal": 52
+        }
+    },
+    {
+        "name": "Manila tamarind",
+        "original_name": "Manila tamarind",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.56,
+            "carbohydrate_g": 13.54,
+            "energy_kcal": 82
+        }
+    },
+    {
+        "name": "Musk melon",
+        "original_name": "Musk melon, orange flesh",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.42,
+            "carbohydrate_g": 4.24,
+            "energy_kcal": 23
+        }
+    },
+    {
+        "name": "Orange",
+        "original_name": "Orange, pulp",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.7,
+            "carbohydrate_g": 7.92,
+            "energy_kcal": 37
+        }
+    },
+    {
+        "name": "Palm fruit",
+        "original_name": "Palm fruit, tender",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.5,
+            "carbohydrate_g": 4.92,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Peach",
+        "original_name": "Peach",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.86,
+            "carbohydrate_g": 7.82,
+            "energy_kcal": 40
+        }
+    },
+    {
+        "name": "Pear",
+        "original_name": "Pear",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.36,
+            "carbohydrate_g": 8.09,
+            "energy_kcal": 38
+        }
+    },
+    {
+        "name": "Phalsa",
+        "original_name": "Phalsa",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.66,
+            "carbohydrate_g": 15.09,
+            "energy_kcal": 71
+        }
+    },
+    {
+        "name": "Pineapple",
+        "original_name": "Pineapple",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.52,
+            "carbohydrate_g": 9.42,
+            "energy_kcal": 43
+        }
+    },
+    {
+        "name": "Plum",
+        "original_name": "Plum",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.64,
+            "carbohydrate_g": 12.1,
+            "energy_kcal": 57
+        }
+    },
+    {
+        "name": "Pomegranate",
+        "original_name": "Pomegranate, maroon seeds",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.33,
+            "carbohydrate_g": 11.58,
+            "energy_kcal": 55
+        }
+    },
+    {
+        "name": "Pummelo",
+        "original_name": "Pummelo",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.68,
+            "carbohydrate_g": 10.64,
+            "energy_kcal": 50
+        }
+    },
+    {
+        "name": "Raisins",
+        "original_name": "Raisins, dried, black",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.57,
+            "carbohydrate_g": 71.29,
+            "energy_kcal": 306
+        }
+    },
+    {
+        "name": "Rambutan",
+        "original_name": "Rambutan",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.68,
+            "carbohydrate_g": 16.84,
+            "energy_kcal": 73
+        }
+    },
+    {
+        "name": "Sapota",
+        "original_name": "Sapota",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.92,
+            "carbohydrate_g": 13.9,
+            "energy_kcal": 73
+        }
+    },
+    {
+        "name": "Soursop",
+        "original_name": "Soursop",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.74,
+            "carbohydrate_g": 11.94,
+            "energy_kcal": 62
+        }
+    },
+    {
+        "name": "Star fruit",
+        "original_name": "Star fruit",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.79,
+            "carbohydrate_g": 4.51,
+            "energy_kcal": 26
+        }
+    },
+    {
+        "name": "Strawberry",
+        "original_name": "Strawberry",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.97,
+            "carbohydrate_g": 3.4,
+            "energy_kcal": 25
+        }
+    },
+    {
+        "name": "Tamarind",
+        "original_name": "Tamarind, pulp",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.92,
+            "carbohydrate_g": 67.35,
+            "energy_kcal": 288
+        }
+    },
+    {
+        "name": "Water melon",
+        "original_name": "Water melon, dark green (sugar baby)",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.6,
+            "carbohydrate_g": 3.86,
+            "energy_kcal": 20
+        }
+    },
+    {
+        "name": "Wood Apple",
+        "original_name": "Wood Apple",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.14,
+            "carbohydrate_g": 7.52,
+            "energy_kcal": 78
+        }
+    },
+    {
+        "name": "Zizyphus",
+        "original_name": "Zizyphus",
+        "category": "Fruits",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.34,
+            "carbohydrate_g": 9.4,
+            "energy_kcal": 49
+        }
+    },
+    {
+        "name": "Beet root",
+        "original_name": "Beet root",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.95,
+            "carbohydrate_g": 6.18,
+            "energy_kcal": 36
+        }
+    },
+    {
+        "name": "Carrot",
+        "original_name": "Carrot, orange",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.95,
+            "carbohydrate_g": 5.55,
+            "energy_kcal": 33
+        }
+    },
+    {
+        "name": "Lotus root",
+        "original_name": "Lotus root",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.94,
+            "carbohydrate_g": 14.67,
+            "energy_kcal": 79
+        }
+    },
+    {
+        "name": "Potato",
+        "original_name": "Potato, brown skin, big",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.54,
+            "carbohydrate_g": 14.89,
+            "energy_kcal": 70
+        }
+    },
+    {
+        "name": "Radish",
+        "original_name": "Radish, elongate, red skin",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.67,
+            "carbohydrate_g": 6.71,
+            "energy_kcal": 32
+        }
+    },
+    {
+        "name": "Sweet potato",
+        "original_name": "Sweet potato, brown skin",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.33,
+            "carbohydrate_g": 24.25,
+            "energy_kcal": 109
+        }
+    },
+    {
+        "name": "Tapioca",
+        "original_name": "Tapioca",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.03,
+            "carbohydrate_g": 17.81,
+            "energy_kcal": 80
+        }
+    },
+    {
+        "name": "Water Chestnut",
+        "original_name": "Water Chestnut",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.86,
+            "carbohydrate_g": 21.46,
+            "energy_kcal": 96
+        }
+    },
+    {
+        "name": "Yam",
+        "original_name": "Yam, elephant",
+        "category": "Roots",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.56,
+            "carbohydrate_g": 17.46,
+            "energy_kcal": 84
+        }
+    },
+    {
+        "name": "Chillies",
+        "original_name": "Chillies, green-1",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.62,
+            "carbohydrate_g": 6.32,
+            "energy_kcal": 46
+        }
+    },
+    {
+        "name": "Coriander leaves",
+        "original_name": "Coriander leaves",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.52,
+            "carbohydrate_g": 1.93,
+            "energy_kcal": 31
+        }
+    },
+    {
+        "name": "Curry leaves",
+        "original_name": "Curry leaves",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 7.41,
+            "carbohydrate_g": 4.51,
+            "energy_kcal": 64
+        }
+    },
+    {
+        "name": "Garlic",
+        "original_name": "Garlic, big clove",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 6.92,
+            "carbohydrate_g": 21.93,
+            "energy_kcal": 124
+        }
+    },
+    {
+        "name": "Ginger",
+        "original_name": "Ginger, fresh",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 2.22,
+            "carbohydrate_g": 8.97,
+            "energy_kcal": 55
+        }
+    },
+    {
+        "name": "Mango ginger",
+        "original_name": "Mango ginger",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.45,
+            "carbohydrate_g": 6.98,
+            "energy_kcal": 42
+        }
+    },
+    {
+        "name": "Mint leaves",
+        "original_name": "Mint leaves",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 4.66,
+            "carbohydrate_g": 2.39,
+            "energy_kcal": 37
+        }
+    },
+    {
+        "name": "Asafoetida",
+        "original_name": "Asafoetida",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 6.34,
+            "carbohydrate_g": 71.95,
+            "energy_kcal": 332
+        }
+    },
+    {
+        "name": "Cardamom",
+        "original_name": "Cardamom, green",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 8.1,
+            "carbohydrate_g": 47.76,
+            "energy_kcal": 255
+        }
+    },
+    {
+        "name": "Cloves",
+        "original_name": "Cloves",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 5.86,
+            "carbohydrate_g": 18.73,
+            "energy_kcal": 187
+        }
+    },
+    {
+        "name": "Coriander seeds",
+        "original_name": "Coriander seeds",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.66,
+            "carbohydrate_g": 12.98,
+            "energy_kcal": 269
+        }
+    },
+    {
+        "name": "Cumin seeds",
+        "original_name": "Cumin seeds",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 13.91,
+            "carbohydrate_g": 22.62,
+            "energy_kcal": 304
+        }
+    },
+    {
+        "name": "Fenugreek seeds",
+        "original_name": "Fenugreek seeds",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 25.41,
+            "carbohydrate_g": 10.57,
+            "energy_kcal": 235
+        }
+    },
+    {
+        "name": "Mace",
+        "original_name": "Mace",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 6.24,
+            "carbohydrate_g": 26.51,
+            "energy_kcal": 356
+        }
+    },
+    {
+        "name": "Nutmeg",
+        "original_name": "Nutmeg",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 6.3,
+            "carbohydrate_g": 27.64,
+            "energy_kcal": 464
+        }
+    },
+    {
+        "name": "Omum",
+        "original_name": "Omum",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 15.89,
+            "carbohydrate_g": 24.53,
+            "energy_kcal": 357
+        }
+    },
+    {
+        "name": "Pippali",
+        "original_name": "Pippali",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.53,
+            "carbohydrate_g": 35.7,
+            "energy_kcal": 217
+        }
+    },
+    {
+        "name": "Pepper",
+        "original_name": "Pepper, black",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.12,
+            "carbohydrate_g": 36.22,
+            "energy_kcal": 217
+        }
+    },
+    {
+        "name": "Poppy seeds",
+        "original_name": "Poppy seeds",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.31,
+            "carbohydrate_g": 12.37,
+            "energy_kcal": 423
+        }
+    },
+    {
+        "name": "Turmeric powder",
+        "original_name": "Turmeric powder",
+        "category": "Spices",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 7.66,
+            "carbohydrate_g": 49.22,
+            "energy_kcal": 281
+        }
+    },
+    {
+        "name": "Almond",
+        "original_name": "Almond",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.41,
+            "carbohydrate_g": 3.04,
+            "energy_kcal": 609
+        }
+    },
+    {
+        "name": "Arecanut",
+        "original_name": "Arecanut, dried, brown",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 5.78,
+            "carbohydrate_g": 70.42,
+            "energy_kcal": 351
+        }
+    },
+    {
+        "name": "Cashew nut",
+        "original_name": "Cashew nut",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.78,
+            "carbohydrate_g": 25.46,
+            "energy_kcal": 583
+        }
+    },
+    {
+        "name": "Coconut",
+        "original_name": "Coconut, kernal, dry",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 7.27,
+            "carbohydrate_g": 8.01,
+            "energy_kcal": 624
+        }
+    },
+    {
+        "name": "Gingelly seeds",
+        "original_name": "Gingelly seeds, black",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.17,
+            "carbohydrate_g": 10.29,
+            "energy_kcal": 508
+        }
+    },
+    {
+        "name": "Ground nut",
+        "original_name": "Ground nut",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.65,
+            "carbohydrate_g": 17.27,
+            "energy_kcal": 520
+        }
+    },
+    {
+        "name": "Mustard seeds",
+        "original_name": "Mustard seeds",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.51,
+            "carbohydrate_g": 16.8,
+            "energy_kcal": 510
+        }
+    },
+    {
+        "name": "Linseeds",
+        "original_name": "Linseeds",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.55,
+            "carbohydrate_g": 10.99,
+            "energy_kcal": 444
+        }
+    },
+    {
+        "name": "Niger seeds",
+        "original_name": "Niger seeds, black",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.92,
+            "carbohydrate_g": 22.98,
+            "energy_kcal": 512
+        }
+    },
+    {
+        "name": "Pine seed",
+        "original_name": "Pine seed",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 12.55,
+            "carbohydrate_g": 26.77,
+            "energy_kcal": 594
+        }
+    },
+    {
+        "name": "Pistachio nuts",
+        "original_name": "Pistachio nuts",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.35,
+            "carbohydrate_g": 15.82,
+            "energy_kcal": 539
+        }
+    },
+    {
+        "name": "Safflower seeds",
+        "original_name": "Safflower seeds",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.66,
+            "carbohydrate_g": 30.18,
+            "energy_kcal": 473
+        }
+    },
+    {
+        "name": "Sunflower seeds",
+        "original_name": "Sunflower seeds",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.53,
+            "carbohydrate_g": 6.85,
+            "energy_kcal": 586
+        }
+    },
+    {
+        "name": "Walnut",
+        "original_name": "Walnut",
+        "category": "Nuts",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 14.92,
+            "carbohydrate_g": 10.14,
+            "energy_kcal": 671
+        }
+    },
+    {
+        "name": "Jaggery",
+        "original_name": "Jaggery, cane",
+        "category": "Sugars",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.85,
+            "carbohydrate_g": 84.87,
+            "energy_kcal": 354
+        }
+    },
+    {
+        "name": "Sugarcane",
+        "original_name": "Sugarcane, juice",
+        "category": "Sugars",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.16,
+            "carbohydrate_g": 13.11,
+            "energy_kcal": 58
+        }
+    },
+    {
+        "name": "Button mushroom",
+        "original_name": "Button mushroom, fresh",
+        "category": "Mushrooms",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.68,
+            "carbohydrate_g": 1.98,
+            "energy_kcal": 27
+        }
+    },
+    {
+        "name": "Chicken mushroom",
+        "original_name": "Chicken mushroom, fresh",
+        "category": "Mushrooms",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 1.84,
+            "carbohydrate_g": 2.76,
+            "energy_kcal": 21
+        }
+    },
+    {
+        "name": "Shiitake mushroom",
+        "original_name": "Shiitake mushroom, fresh",
+        "category": "Mushrooms",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.19,
+            "carbohydrate_g": 8.98,
+            "energy_kcal": 58
+        }
+    },
+    {
+        "name": "Oyster mushroom",
+        "original_name": "Oyster mushroom, dried",
+        "category": "Mushrooms",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.04,
+            "carbohydrate_g": 33.07,
+            "energy_kcal": 244
+        }
+    },
+    {
+        "name": "Toddy",
+        "original_name": "Toddy",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.18,
+            "carbohydrate_g": 5.72,
+            "energy_kcal": 24
+        }
+    },
+    {
+        "name": "Coconut Water",
+        "original_name": "Coconut Water",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 0.26,
+            "carbohydrate_g": 3.16,
+            "energy_kcal": 15
+        }
+    },
+    {
+        "name": "Milk",
+        "original_name": "Milk, whole, Buffalo",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 3.68,
+            "carbohydrate_g": 8.39,
+            "energy_kcal": 107
+        }
+    },
+    {
+        "name": "Panner",
+        "original_name": "Panner",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.86,
+            "carbohydrate_g": 12.41,
+            "energy_kcal": 258
+        }
+    },
+    {
+        "name": "Khoa",
+        "original_name": "Khoa",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 16.34,
+            "carbohydrate_g": 16.53,
+            "energy_kcal": 316
+        }
+    },
+    {
+        "name": "Egg",
+        "original_name": "Egg, poultry, whole, raw",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 13.28,
+            "carbohydrate_g": 0,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Chicken",
+        "original_name": "Chicken, poultry, leg, skinless",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.44,
+            "carbohydrate_g": 0,
+            "energy_kcal": 384
+        }
+    },
+    {
+        "name": "Poultry",
+        "original_name": "Poultry, chicken, liver",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.57,
+            "carbohydrate_g": 0,
+            "energy_kcal": 124
+        }
+    },
+    {
+        "name": "Country hen",
+        "original_name": "Country hen, leg, with skin",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.01,
+            "carbohydrate_g": 0,
+            "energy_kcal": 173
+        }
+    },
+    {
+        "name": "Duck",
+        "original_name": "Duck, meat, with skin",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.07,
+            "carbohydrate_g": 0,
+            "energy_kcal": 131
+        }
+    },
+    {
+        "name": "Emu",
+        "original_name": "Emu, meat, skinless",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.65,
+            "carbohydrate_g": 0,
+            "energy_kcal": 133
+        }
+    },
+    {
+        "name": "Guinea fowl",
+        "original_name": "Guinea fowl, meat, with skin",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.52,
+            "carbohydrate_g": 0,
+            "energy_kcal": 112
+        }
+    },
+    {
+        "name": "Pigeon",
+        "original_name": "Pigeon, meat, with skin",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.94,
+            "carbohydrate_g": 0,
+            "energy_kcal": 126
+        }
+    },
+    {
+        "name": "Quail",
+        "original_name": "Quail, meat, skinless",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.92,
+            "carbohydrate_g": 0,
+            "energy_kcal": 138
+        }
+    },
+    {
+        "name": "Turkey",
+        "original_name": "Turkey, leg, with skin",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.3,
+            "carbohydrate_g": 0,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Goat",
+        "original_name": "Goat, shoulder, meat",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.33,
+            "carbohydrate_g": 0,
+            "energy_kcal": 188
+        }
+    },
+    {
+        "name": "Sheep",
+        "original_name": "Sheep, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.24,
+            "carbohydrate_g": 0,
+            "energy_kcal": 201
+        }
+    },
+    {
+        "name": "Beef",
+        "original_name": "Beef, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.56,
+            "carbohydrate_g": 0,
+            "energy_kcal": 212
+        }
+    },
+    {
+        "name": "Calf",
+        "original_name": "Calf, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.98,
+            "carbohydrate_g": 0,
+            "energy_kcal": 151
+        }
+    },
+    {
+        "name": "Mithun",
+        "original_name": "Mithun, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.05,
+            "carbohydrate_g": 0,
+            "energy_kcal": 176
+        }
+    },
+    {
+        "name": "Pork",
+        "original_name": "Pork, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.41,
+            "carbohydrate_g": 0,
+            "energy_kcal": 237
+        }
+    },
+    {
+        "name": "Hare",
+        "original_name": "Hare, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.13,
+            "carbohydrate_g": 0,
+            "energy_kcal": 144
+        }
+    },
+    {
+        "name": "Rabbit",
+        "original_name": "Rabbit, shoulder",
+        "category": "Meat",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.01,
+            "carbohydrate_g": 0,
+            "energy_kcal": 152
+        }
+    },
+    {
+        "name": "Allathi",
+        "original_name": "Allathi",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.77,
+            "carbohydrate_g": 0,
+            "energy_kcal": 97
+        }
+    },
+    {
+        "name": "Aluva",
+        "original_name": "Aluva",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.63,
+            "carbohydrate_g": 0,
+            "energy_kcal": 104
+        }
+    },
+    {
+        "name": "Anchovy",
+        "original_name": "Anchovy",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.88,
+            "carbohydrate_g": 0,
+            "energy_kcal": 88
+        }
+    },
+    {
+        "name": "Ari fish",
+        "original_name": "Ari fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.01,
+            "carbohydrate_g": 0,
+            "energy_kcal": 99
+        }
+    },
+    {
+        "name": "Betki",
+        "original_name": "Betki",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 15.28,
+            "carbohydrate_g": 0,
+            "energy_kcal": 68
+        }
+    },
+    {
+        "name": "Black snapper",
+        "original_name": "Black snapper",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.5,
+            "carbohydrate_g": 0,
+            "energy_kcal": 90
+        }
+    },
+    {
+        "name": "Bombay duck",
+        "original_name": "Bombay duck",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 13.53,
+            "carbohydrate_g": 0,
+            "energy_kcal": 69
+        }
+    },
+    {
+        "name": "Bommuralu",
+        "original_name": "Bommuralu",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.3,
+            "carbohydrate_g": 0,
+            "energy_kcal": 116
+        }
+    },
+    {
+        "name": "Cat fish",
+        "original_name": "Cat fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.18,
+            "carbohydrate_g": 0,
+            "energy_kcal": 109
+        }
+    },
+    {
+        "name": "Chakla",
+        "original_name": "Chakla",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.21,
+            "carbohydrate_g": 0,
+            "energy_kcal": 97
+        }
+    },
+    {
+        "name": "Chappal",
+        "original_name": "Chappal",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.17,
+            "carbohydrate_g": 0,
+            "energy_kcal": 76
+        }
+    },
+    {
+        "name": "Chelu",
+        "original_name": "Chelu",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.02,
+            "carbohydrate_g": 0,
+            "energy_kcal": 87
+        }
+    },
+    {
+        "name": "Chembali",
+        "original_name": "Chembali",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.06,
+            "carbohydrate_g": 0,
+            "energy_kcal": 97
+        }
+    },
+    {
+        "name": "Eri meen",
+        "original_name": "Eri meen",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.3,
+            "carbohydrate_g": 0,
+            "energy_kcal": 109
+        }
+    },
+    {
+        "name": "Gobro",
+        "original_name": "Gobro",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.37,
+            "carbohydrate_g": 0,
+            "energy_kcal": 87
+        }
+    },
+    {
+        "name": "Guitar fish",
+        "original_name": "Guitar fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.56,
+            "carbohydrate_g": 0,
+            "energy_kcal": 96
+        }
+    },
+    {
+        "name": "Hilsa",
+        "original_name": "Hilsa",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.8,
+            "carbohydrate_g": 0,
+            "energy_kcal": 259
+        }
+    },
+    {
+        "name": "Jallal",
+        "original_name": "Jallal",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.55,
+            "carbohydrate_g": 0,
+            "energy_kcal": 100
+        }
+    },
+    {
+        "name": "Jathi vela meen",
+        "original_name": "Jathi vela meen",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.45,
+            "carbohydrate_g": 0,
+            "energy_kcal": 108
+        }
+    },
+    {
+        "name": "Kadal bral",
+        "original_name": "Kadal bral",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.72,
+            "carbohydrate_g": 0,
+            "energy_kcal": 88
+        }
+    },
+    {
+        "name": "Kadali",
+        "original_name": "Kadali",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.07,
+            "carbohydrate_g": 0,
+            "energy_kcal": 127
+        }
+    },
+    {
+        "name": "Kalamaara",
+        "original_name": "Kalamaara",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.89,
+            "carbohydrate_g": 0,
+            "energy_kcal": 125
+        }
+    },
+    {
+        "name": "Kalava",
+        "original_name": "Kalava",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.38,
+            "carbohydrate_g": 0,
+            "energy_kcal": 89
+        }
+    },
+    {
+        "name": "Kanamayya",
+        "original_name": "Kanamayya",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.19,
+            "carbohydrate_g": 0,
+            "energy_kcal": 88
+        }
+    },
+    {
+        "name": "Kannadi paarai",
+        "original_name": "Kannadi paarai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.09,
+            "carbohydrate_g": 0,
+            "energy_kcal": 101
+        }
+    },
+    {
+        "name": "Karimeen",
+        "original_name": "Karimeen",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.68,
+            "carbohydrate_g": 0,
+            "energy_kcal": 92
+        }
+    },
+    {
+        "name": "Karnagawala",
+        "original_name": "Karnagawala",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.52,
+            "carbohydrate_g": 0,
+            "energy_kcal": 87
+        }
+    },
+    {
+        "name": "Kayrai",
+        "original_name": "Kayrai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.15,
+            "carbohydrate_g": 0,
+            "energy_kcal": 109
+        }
+    },
+    {
+        "name": "Kiriyan",
+        "original_name": "Kiriyan",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.49,
+            "carbohydrate_g": 0,
+            "energy_kcal": 133
+        }
+    },
+    {
+        "name": "Kite fish",
+        "original_name": "Kite fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.07,
+            "carbohydrate_g": 0,
+            "energy_kcal": 99
+        }
+    },
+    {
+        "name": "Korka",
+        "original_name": "Korka",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.72,
+            "carbohydrate_g": 0,
+            "energy_kcal": 126
+        }
+    },
+    {
+        "name": "Kulam paarai",
+        "original_name": "Kulam paarai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.62,
+            "carbohydrate_g": 0,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Maagaa",
+        "original_name": "Maagaa",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.11,
+            "carbohydrate_g": 0,
+            "energy_kcal": 87
+        }
+    },
+    {
+        "name": "Mackerel",
+        "original_name": "Mackerel",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.51,
+            "carbohydrate_g": 0,
+            "energy_kcal": 101
+        }
+    },
+    {
+        "name": "Manda clathi",
+        "original_name": "Manda clathi",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.27,
+            "carbohydrate_g": 0,
+            "energy_kcal": 95
+        }
+    },
+    {
+        "name": "Matha",
+        "original_name": "Matha",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.17,
+            "carbohydrate_g": 0,
+            "energy_kcal": 93
+        }
+    },
+    {
+        "name": "Milk fish",
+        "original_name": "Milk fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.66,
+            "carbohydrate_g": 0,
+            "energy_kcal": 106
+        }
+    },
+    {
+        "name": "Moon fish",
+        "original_name": "Moon fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.74,
+            "carbohydrate_g": 0,
+            "energy_kcal": 126
+        }
+    },
+    {
+        "name": "Mullet",
+        "original_name": "Mullet",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.23,
+            "carbohydrate_g": 0,
+            "energy_kcal": 94
+        }
+    },
+    {
+        "name": "Mural",
+        "original_name": "Mural",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.04,
+            "carbohydrate_g": 0,
+            "energy_kcal": 82
+        }
+    },
+    {
+        "name": "Myil meen",
+        "original_name": "Myil meen",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.89,
+            "carbohydrate_g": 0,
+            "energy_kcal": 98
+        }
+    },
+    {
+        "name": "Nalla bontha",
+        "original_name": "Nalla bontha",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.82,
+            "carbohydrate_g": 0,
+            "energy_kcal": 87
+        }
+    },
+    {
+        "name": "Narba",
+        "original_name": "Narba",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.95,
+            "carbohydrate_g": 0,
+            "energy_kcal": 103
+        }
+    },
+    {
+        "name": "Paarai",
+        "original_name": "Paarai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.58,
+            "carbohydrate_g": 0,
+            "energy_kcal": 104
+        }
+    },
+    {
+        "name": "Padayappa",
+        "original_name": "Padayappa",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.7,
+            "carbohydrate_g": 0,
+            "energy_kcal": 86
+        }
+    },
+    {
+        "name": "Pali kora",
+        "original_name": "Pali kora",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.25,
+            "carbohydrate_g": 0,
+            "energy_kcal": 94
+        }
+    },
+    {
+        "name": "Pambada",
+        "original_name": "Pambada",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.95,
+            "carbohydrate_g": 0,
+            "energy_kcal": 128
+        }
+    },
+    {
+        "name": "Pandukopa",
+        "original_name": "Pandukopa",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.73,
+            "carbohydrate_g": 0,
+            "energy_kcal": 86
+        }
+    },
+    {
+        "name": "Parava",
+        "original_name": "Parava",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.5,
+            "carbohydrate_g": 0,
+            "energy_kcal": 112
+        }
+    },
+    {
+        "name": "Parcus",
+        "original_name": "Parcus",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.87,
+            "carbohydrate_g": 0,
+            "energy_kcal": 86
+        }
+    },
+    {
+        "name": "Parrot fish",
+        "original_name": "Parrot fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.82,
+            "carbohydrate_g": 0,
+            "energy_kcal": 90
+        }
+    },
+    {
+        "name": "Perinkilichai",
+        "original_name": "Perinkilichai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.89,
+            "carbohydrate_g": 0,
+            "energy_kcal": 92
+        }
+    },
+    {
+        "name": "Phopat",
+        "original_name": "Phopat",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.05,
+            "carbohydrate_g": 0,
+            "energy_kcal": 101
+        }
+    },
+    {
+        "name": "Piranha",
+        "original_name": "Piranha",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.46,
+            "carbohydrate_g": 0,
+            "energy_kcal": 131
+        }
+    },
+    {
+        "name": "Pomfret",
+        "original_name": "Pomfret, black",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.91,
+            "carbohydrate_g": 0,
+            "energy_kcal": 123
+        }
+    },
+    {
+        "name": "Pranel",
+        "original_name": "Pranel",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.69,
+            "carbohydrate_g": 0,
+            "energy_kcal": 97
+        }
+    },
+    {
+        "name": "Pulli paarai",
+        "original_name": "Pulli paarai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.06,
+            "carbohydrate_g": 0,
+            "energy_kcal": 95
+        }
+    },
+    {
+        "name": "Queen fish",
+        "original_name": "Queen fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.97,
+            "carbohydrate_g": 0,
+            "energy_kcal": 96
+        }
+    },
+    {
+        "name": "Raai fish",
+        "original_name": "Raai fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.61,
+            "carbohydrate_g": 0,
+            "energy_kcal": 103
+        }
+    },
+    {
+        "name": "Raai vanthu",
+        "original_name": "Raai vanthu",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.39,
+            "carbohydrate_g": 0,
+            "energy_kcal": 98
+        }
+    },
+    {
+        "name": "Rani",
+        "original_name": "Rani",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.83,
+            "carbohydrate_g": 0,
+            "energy_kcal": 90
+        }
+    },
+    {
+        "name": "Ray fish",
+        "original_name": "Ray fish, bow head, spotted",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.03,
+            "carbohydrate_g": 0,
+            "energy_kcal": 83
+        }
+    },
+    {
+        "name": "Red snapper",
+        "original_name": "Red snapper",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.79,
+            "carbohydrate_g": 0,
+            "energy_kcal": 104
+        }
+    },
+    {
+        "name": "Sadaya",
+        "original_name": "Sadaya",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.68,
+            "carbohydrate_g": 0,
+            "energy_kcal": 110
+        }
+    },
+    {
+        "name": "Salmon",
+        "original_name": "Salmon",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.97,
+            "carbohydrate_g": 0,
+            "energy_kcal": 172
+        }
+    },
+    {
+        "name": "Sangada",
+        "original_name": "Sangada",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.26,
+            "carbohydrate_g": 0,
+            "energy_kcal": 106
+        }
+    },
+    {
+        "name": "Sankata paarai",
+        "original_name": "Sankata paarai",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.87,
+            "carbohydrate_g": 0,
+            "energy_kcal": 104
+        }
+    },
+    {
+        "name": "Sardine",
+        "original_name": "Sardine",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.91,
+            "carbohydrate_g": 0,
+            "energy_kcal": 152
+        }
+    },
+    {
+        "name": "Shark",
+        "original_name": "Shark",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.6,
+            "carbohydrate_g": 0,
+            "energy_kcal": 95
+        }
+    },
+    {
+        "name": "Shelavu",
+        "original_name": "Shelavu",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.46,
+            "carbohydrate_g": 0,
+            "energy_kcal": 107
+        }
+    },
+    {
+        "name": "Silan",
+        "original_name": "Silan",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.72,
+            "carbohydrate_g": 0,
+            "energy_kcal": 151
+        }
+    },
+    {
+        "name": "Silk fish",
+        "original_name": "Silk fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.65,
+            "carbohydrate_g": 0,
+            "energy_kcal": 98
+        }
+    },
+    {
+        "name": "Silver carp",
+        "original_name": "Silver carp",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.71,
+            "carbohydrate_g": 0,
+            "energy_kcal": 133
+        }
+    },
+    {
+        "name": "Sole fish",
+        "original_name": "Sole fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.05,
+            "carbohydrate_g": 0,
+            "energy_kcal": 88
+        }
+    },
+    {
+        "name": "Stingray",
+        "original_name": "Stingray",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 23.98,
+            "carbohydrate_g": 0,
+            "energy_kcal": 98
+        }
+    },
+    {
+        "name": "Tarlava",
+        "original_name": "Tarlava",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.72,
+            "carbohydrate_g": 0,
+            "energy_kcal": 99
+        }
+    },
+    {
+        "name": "Tholam",
+        "original_name": "Tholam",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.78,
+            "carbohydrate_g": 0,
+            "energy_kcal": 103
+        }
+    },
+    {
+        "name": "Tilapia",
+        "original_name": "Tilapia",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 18.48,
+            "carbohydrate_g": 0,
+            "energy_kcal": 83
+        }
+    },
+    {
+        "name": "Tuna",
+        "original_name": "Tuna",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 24.5,
+            "carbohydrate_g": 0,
+            "energy_kcal": 112
+        }
+    },
+    {
+        "name": "Valava",
+        "original_name": "Valava",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.8,
+            "carbohydrate_g": 0,
+            "energy_kcal": 98
+        }
+    },
+    {
+        "name": "Vanjaram",
+        "original_name": "Vanjaram",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.28,
+            "carbohydrate_g": 0,
+            "energy_kcal": 136
+        }
+    },
+    {
+        "name": "Vela meen",
+        "original_name": "Vela meen",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 22.16,
+            "carbohydrate_g": 0,
+            "energy_kcal": 128
+        }
+    },
+    {
+        "name": "Vora",
+        "original_name": "Vora",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.14,
+            "carbohydrate_g": 0,
+            "energy_kcal": 101
+        }
+    },
+    {
+        "name": "Whale shark",
+        "original_name": "Whale shark",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 21.83,
+            "carbohydrate_g": 0,
+            "energy_kcal": 96
+        }
+    },
+    {
+        "name": "Xiphinis",
+        "original_name": "Xiphinis",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.82,
+            "carbohydrate_g": 0,
+            "energy_kcal": 88
+        }
+    },
+    {
+        "name": "Eggs",
+        "original_name": "Eggs, Cat fish",
+        "category": "Fish",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 24.68,
+            "carbohydrate_g": 0,
+            "energy_kcal": 143
+        }
+    },
+    {
+        "name": "Crab",
+        "original_name": "Crab",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10.23,
+            "carbohydrate_g": 0,
+            "energy_kcal": 82
+        }
+    },
+    {
+        "name": "Lobster",
+        "original_name": "Lobster, brown",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 15.96,
+            "carbohydrate_g": 0,
+            "energy_kcal": 70
+        }
+    },
+    {
+        "name": "Mud crab",
+        "original_name": "Mud crab",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 10,
+            "carbohydrate_g": 0,
+            "energy_kcal": 45
+        }
+    },
+    {
+        "name": "Oyster",
+        "original_name": "Oyster",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 9.51,
+            "carbohydrate_g": 0,
+            "energy_kcal": 60
+        }
+    },
+    {
+        "name": "Tiger prawns",
+        "original_name": "Tiger prawns, brown",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 14.85,
+            "carbohydrate_g": 0,
+            "energy_kcal": 65
+        }
+    },
+    {
+        "name": "Clam",
+        "original_name": "Clam, green shell",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 12.14,
+            "carbohydrate_g": 0,
+            "energy_kcal": 58
+        }
+    },
+    {
+        "name": "Octopus",
+        "original_name": "Octopus",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 14.71,
+            "carbohydrate_g": 0,
+            "energy_kcal": 80
+        }
+    },
+    {
+        "name": "Squid",
+        "original_name": "Squid, black",
+        "category": "Other",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 16.1,
+            "carbohydrate_g": 0,
+            "energy_kcal": 80
+        }
+    },
+    {
+        "name": "Catla",
+        "original_name": "Catla",
+        "category": "Seafood",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.94,
+            "carbohydrate_g": 0,
+            "energy_kcal": 94
+        }
+    },
+    {
+        "name": "Freshwater Eel",
+        "original_name": "Freshwater Eel",
+        "category": "Seafood",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 20.41,
+            "carbohydrate_g": 0,
+            "energy_kcal": 108
+        }
+    },
+    {
+        "name": "Gold fish",
+        "original_name": "Gold fish",
+        "category": "Seafood",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 16.91,
+            "carbohydrate_g": 0,
+            "energy_kcal": 95
+        }
+    },
+    {
+        "name": "Pangas",
+        "original_name": "Pangas",
+        "category": "Seafood",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 17.12,
+            "carbohydrate_g": 0,
+            "energy_kcal": 204
+        }
+    },
+    {
+        "name": "Rohu",
+        "original_name": "Rohu",
+        "category": "Seafood",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.71,
+            "carbohydrate_g": 0,
+            "energy_kcal": 102
+        }
+    },
+    {
+        "name": "Prawns",
+        "original_name": "Prawns, big",
+        "category": "Seafood",
+        "state": "Raw",
+        "nutrients": {
+            "protein_g": 19.24,
+            "carbohydrate_g": 0,
+            "energy_kcal": 91
+        }
+    },
+    {
+        "name": "Poha",
+        "original_name": "Flattened rice",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 23,
+            "energy_kcal": 130
+        }
+    },
+    {
+        "name": "Upma",
+        "original_name": "Semolina upma",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 20,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Idli",
+        "original_name": "Steamed rice cake",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 30,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Dosa",
+        "original_name": "Fermented rice pancake",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 28,
+            "energy_kcal": 165
+        }
+    },
+    {
+        "name": "Masala Dosa",
+        "original_name": "Dosa with potato filling",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 32,
+            "energy_kcal": 190
+        }
+    },
+    {
+        "name": "Plain Rice",
+        "original_name": "Cooked white rice",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.7,
+            "carbohydrate_g": 28,
+            "energy_kcal": 130
+        }
+    },
+    {
+        "name": "Jeera Rice",
+        "original_name": "Cumin rice",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 30,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Vegetable Pulao",
+        "original_name": "Vegetable rice",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.5,
+            "carbohydrate_g": 32,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Khichdi",
+        "original_name": "Rice and lentil porridge",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Dal Tadka",
+        "original_name": "Tempered lentils",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Dal Fry",
+        "original_name": "Fried lentils",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Rajma",
+        "original_name": "Kidney bean curry",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.5,
+            "carbohydrate_g": 22,
+            "energy_kcal": 140
+        }
+    },
+    {
+        "name": "Chole",
+        "original_name": "Chickpea curry",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.0,
+            "carbohydrate_g": 27,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Kadhi",
+        "original_name": "Yogurt curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 10,
+            "energy_kcal": 110
+        }
+    },
+    {
+        "name": "Palak Paneer",
+        "original_name": "Spinach cottage cheese curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 10.0,
+            "carbohydrate_g": 12,
+            "energy_kcal": 190
+        }
+    },
+    {
+        "name": "Paneer Butter Masala",
+        "original_name": "Paneer tomato gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 240
+        }
+    },
+    {
+        "name": "Aloo Sabzi",
+        "original_name": "Potato curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 130
+        }
+    },
+    {
+        "name": "Bhindi Fry",
+        "original_name": "Fried okra",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Baingan Bharta",
+        "original_name": "Roasted eggplant mash",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Lauki Sabzi",
+        "original_name": "Bottle gourd curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.5,
+            "carbohydrate_g": 10,
+            "energy_kcal": 70
+        }
+    },
+    {
+        "name": "Roti",
+        "original_name": "Whole wheat flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 50,
+            "energy_kcal": 260
+        }
+    },
+    {
+        "name": "Butter Roti",
+        "original_name": "Butter wheat flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 48,
+            "energy_kcal": 300
+        }
+    },
+    {
+        "name": "Naan",
+        "original_name": "Leavened flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.0,
+            "carbohydrate_g": 55,
+            "energy_kcal": 310
+        }
+    },
+    {
+        "name": "Poori",
+        "original_name": "Deep fried wheat bread",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 45,
+            "energy_kcal": 360
+        }
+    },
+    {
+        "name": "Paratha",
+        "original_name": "Layered wheat flatbread",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 45,
+            "energy_kcal": 300
+        }
+    },
+    {
+        "name": "Samosa",
+        "original_name": "Stuffed fried pastry",
+        "category": "Snacks",
+        "state": "Fried",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 35,
+            "energy_kcal": 310
+        }
+    },
+    {
+        "name": "Pakora",
+        "original_name": "Gram flour fritters",
+        "category": "Snacks",
+        "state": "Fried",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 30,
+            "energy_kcal": 300
+        }
+    },
+    {
+        "name": "Bhel Puri",
+        "original_name": "Puffed rice snack",
+        "category": "Snacks",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 38,
+            "energy_kcal": 210
+        }
+    },
+    {
+        "name": "Moongfali",
+        "original_name": "Roasted peanuts",
+        "category": "Nuts & Seeds",
+        "state": "Roasted",
+        "nutrients": {
+            "protein_g": 26.0,
+            "carbohydrate_g": 16,
+            "energy_kcal": 570
+        }
+    },
+    {
+        "name": "Curd",
+        "original_name": "Plain yogurt",
+        "category": "Milk Products",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 3.5,
+            "carbohydrate_g": 5,
+            "energy_kcal": 60
+        }
+    },
+    {
+        "name": "Paneer",
+        "original_name": "Cottage cheese",
+        "category": "Milk Products",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 18.0,
+            "carbohydrate_g": 3,
+            "energy_kcal": 265
+        }
+    },
+    {
+        "name": "Milk",
+        "original_name": "Cow milk",
+        "category": "Milk Products",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 3.2,
+            "carbohydrate_g": 5,
+            "energy_kcal": 60
+        }
+    },
+    {
+        "name": "Boiled Egg",
+        "original_name": "Hen egg boiled",
+        "category": "Eggs",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 13.0,
+            "carbohydrate_g": 1,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Chicken Curry",
+        "original_name": "Chicken gravy",
+        "category": "Meat",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 18.0,
+            "carbohydrate_g": 5,
+            "energy_kcal": 190
+        }
+    },
+    {
+        "name": "Fish Curry",
+        "original_name": "Fish gravy",
+        "category": "Fish",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 16.0,
+            "carbohydrate_g": 4,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Aloo Palak",
+        "original_name": "Potato spinach curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.8,
+            "carbohydrate_g": 16,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Palak Corn",
+        "original_name": "Spinach corn curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 14,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Corn Masala",
+        "original_name": "Spiced sweet corn curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Bharta (Tomato)",
+        "original_name": "Mashed tomato curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.8,
+            "carbohydrate_g": 9,
+            "energy_kcal": 75
+        }
+    },
+    {
+        "name": "Tori Sabzi",
+        "original_name": "Ridge gourd curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.6,
+            "carbohydrate_g": 8,
+            "energy_kcal": 60
+        }
+    },
+    {
+        "name": "Karela Sabzi",
+        "original_name": "Bitter gourd curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.9,
+            "carbohydrate_g": 7,
+            "energy_kcal": 65
+        }
+    },
+    {
+        "name": "Parwal Sabzi",
+        "original_name": "Pointed gourd curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.0,
+            "carbohydrate_g": 9,
+            "energy_kcal": 70
+        }
+    },
+    {
+        "name": "Arbi Sabzi",
+        "original_name": "Colocasia root curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.3,
+            "carbohydrate_g": 20,
+            "energy_kcal": 140
+        }
+    },
+    {
+        "name": "Arbi Fry",
+        "original_name": "Fried colocasia",
+        "category": "Vegetables",
+        "state": "Fried",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 22,
+            "energy_kcal": 180
+        }
+    },
+    {
+        "name": "Kundru Sabzi",
+        "original_name": "Ivy gourd curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.7,
+            "carbohydrate_g": 8,
+            "energy_kcal": 65
+        }
+    },
+    {
+        "name": "Soybean Curry",
+        "original_name": "Cooked soybeans in gravy",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 12.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Soy Chunk Masala",
+        "original_name": "Defatted soy flour chunks curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 16.0,
+            "carbohydrate_g": 11,
+            "energy_kcal": 165
+        }
+    },
+    {
+        "name": "Kala Chana Curry",
+        "original_name": "Black chickpea curry",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.5,
+            "carbohydrate_g": 26,
+            "energy_kcal": 165
+        }
+    },
+    {
+        "name": "Lobia Curry",
+        "original_name": "Black eyed peas curry",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.8,
+            "carbohydrate_g": 24,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "White Chana Curry",
+        "original_name": "Kabuli chana curry",
+        "category": "Pulses",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 8.9,
+            "carbohydrate_g": 27,
+            "energy_kcal": 160
+        }
+    },
+    {
+        "name": "Vegetable Handi",
+        "original_name": "Mixed vegetable handi curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.8,
+            "carbohydrate_g": 15,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Paneer Do Pyaza",
+        "original_name": "Paneer with onions",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 11.5,
+            "carbohydrate_g": 12,
+            "energy_kcal": 215
+        }
+    },
+    {
+        "name": "Paneer Lababdar",
+        "original_name": "Rich paneer tomato gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 10.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 240
+        }
+    },
+    {
+        "name": "Paneer Pasanda",
+        "original_name": "Stuffed paneer curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 9.5,
+            "carbohydrate_g": 15,
+            "energy_kcal": 260
+        }
+    },
+    {
+        "name": "Malai Kofta",
+        "original_name": "Paneer vegetable dumplings in gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.5,
+            "carbohydrate_g": 18,
+            "energy_kcal": 280
+        }
+    },
+    {
+        "name": "Vegetable Kofta Curry",
+        "original_name": "Vegetable dumplings in gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.5,
+            "carbohydrate_g": 20,
+            "energy_kcal": 240
+        }
+    },
+    {
+        "name": "Kofta Dry",
+        "original_name": "Dry vegetable kofta",
+        "category": "Snacks",
+        "state": "Fried",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 22,
+            "energy_kcal": 260
+        }
+    },
+    {
+        "name": "Vegetable Manchurian",
+        "original_name": "Indo-Chinese vegetable balls",
+        "category": "Prepared Foods",
+        "state": "Fried",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 24,
+            "energy_kcal": 250
+        }
+    },
+    {
+        "name": "Vegetable Hakka Noodles",
+        "original_name": "Stir fried noodles with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.8,
+            "carbohydrate_g": 32,
+            "energy_kcal": 190
+        }
+    },
+    {
+        "name": "Vegetable Momos",
+        "original_name": "Steamed vegetable dumplings",
+        "category": "Snacks",
+        "state": "Steamed",
+        "nutrients": {
+            "protein_g": 5.0,
+            "carbohydrate_g": 28,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Vegetable Soup",
+        "original_name": "Clear vegetable soup",
+        "category": "Soups",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.0,
+            "carbohydrate_g": 6,
+            "energy_kcal": 45
+        }
+    },
+    {
+        "name": "Tomato Soup",
+        "original_name": "Tomato based soup",
+        "category": "Soups",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.8,
+            "carbohydrate_g": 7,
+            "energy_kcal": 50
+        }
+    },
+    {
+        "name": "Sweet Corn Soup",
+        "original_name": "Corn vegetable soup",
+        "category": "Soups",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 90
+        }
+    },
+    {
+        "name": "Vegetable Raita",
+        "original_name": "Yogurt with vegetables",
+        "category": "Milk Products",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 3.8,
+            "carbohydrate_g": 6,
+            "energy_kcal": 70
+        }
+    },
+    {
+        "name": "Boondi Raita",
+        "original_name": "Yogurt with fried gram flour balls",
+        "category": "Milk Products",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 3.5,
+            "carbohydrate_g": 10,
+            "energy_kcal": 110
+        }
+    },
+    {
+        "name": "Aloo Jeera",
+        "original_name": "Potato cumin stir fry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.3,
+            "carbohydrate_g": 19,
+            "energy_kcal": 125
+        }
+    },
+    {
+        "name": "Jeera Aloo Dry",
+        "original_name": "Dry potato cumin curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.4,
+            "carbohydrate_g": 18,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Capsicum Sabzi",
+        "original_name": "Bell pepper curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.6,
+            "carbohydrate_g": 9,
+            "energy_kcal": 70
+        }
+    },
+    {
+        "name": "Shimla Mirch Aloo",
+        "original_name": "Potato capsicum curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.5,
+            "carbohydrate_g": 17,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Bhindi Masala",
+        "original_name": "Spiced okra curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.2,
+            "carbohydrate_g": 13,
+            "energy_kcal": 145
+        }
+    },
+    {
+        "name": "Stuffed Capsicum",
+        "original_name": "Capsicum stuffed with spices",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.5,
+            "carbohydrate_g": 14,
+            "energy_kcal": 135
+        }
+    },
+    {
+        "name": "Stuffed Tomato",
+        "original_name": "Tomato stuffed with vegetable filling",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.0,
+            "carbohydrate_g": 12,
+            "energy_kcal": 120
+        }
+    },
+    {
+        "name": "Stuffed Tinda",
+        "original_name": "Stuffed apple gourd curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 2.8,
+            "carbohydrate_g": 11,
+            "energy_kcal": 115
+        }
+    },
+    {
+        "name": "Tinda Sabzi",
+        "original_name": "Apple gourd curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.6,
+            "carbohydrate_g": 9,
+            "energy_kcal": 65
+        }
+    },
+    {
+        "name": "Turai Chana Dal",
+        "original_name": "Ridge gourd with split chickpea lentils",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 14,
+            "energy_kcal": 110
+        }
+    },
+    {
+        "name": "Gatte ki Sabzi",
+        "original_name": "Gram flour dumplings in yogurt gravy",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 18,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Ker Sangri",
+        "original_name": "Rajasthani desert beans and berries curry",
+        "category": "Vegetables",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.0,
+            "carbohydrate_g": 20,
+            "energy_kcal": 165
+        }
+    },
+    {
+        "name": "Dal Baati Churma (Baati)",
+        "original_name": "Baked wheat dumpling",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 45,
+            "energy_kcal": 280
+        }
+    },
+    {
+        "name": "Baati (Plain)",
+        "original_name": "Baked wheat ball",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 42,
+            "energy_kcal": 260
+        }
+    },
+    {
+        "name": "Churma",
+        "original_name": "Crushed sweet wheat preparation",
+        "category": "Sweets",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 6.0,
+            "carbohydrate_g": 55,
+            "energy_kcal": 420
+        }
+    },
+    {
+        "name": "Vegetable Pithla",
+        "original_name": "Gram flour curry",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 14,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Zunka",
+        "original_name": "Dry gram flour preparation",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 16,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Bhakri",
+        "original_name": "Millet flatbread",
+        "category": "Cereals",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 7.5,
+            "carbohydrate_g": 44,
+            "energy_kcal": 245
+        }
+    },
+    {
+        "name": "Vangi Bhath",
+        "original_name": "Brinjal spiced rice",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.8,
+            "carbohydrate_g": 31,
+            "energy_kcal": 170
+        }
+    },
+    {
+        "name": "Bisi Bele Bath",
+        "original_name": "Rice lentil vegetable dish",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.5,
+            "carbohydrate_g": 28,
+            "energy_kcal": 180
+        }
+    },
+    {
+        "name": "Vegetable Pongal",
+        "original_name": "Rice lentil porridge",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.8,
+            "carbohydrate_g": 22,
+            "energy_kcal": 150
+        }
+    },
+    {
+        "name": "Curd Pongal",
+        "original_name": "Rice lentil curd dish",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.0,
+            "carbohydrate_g": 21,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Vegetable Sevai",
+        "original_name": "Rice vermicelli with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 3.2,
+            "carbohydrate_g": 26,
+            "energy_kcal": 145
+        }
+    },
+    {
+        "name": "Vegetable Uthappam",
+        "original_name": "Thick rice pancake with vegetables",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 5.5,
+            "carbohydrate_g": 31,
+            "energy_kcal": 180
+        }
+    },
+    {
+        "name": "Vegetable Rava Idli",
+        "original_name": "Steamed semolina idli",
+        "category": "Prepared Foods",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 4.5,
+            "carbohydrate_g": 27,
+            "energy_kcal": 155
+        }
+    },
+    {
+        "name": "Til Chutney",
+        "original_name": "Sesame seed chutney",
+        "category": "Condiments",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 8.0,
+            "carbohydrate_g": 12,
+            "energy_kcal": 230
+        }
+    },
+    {
+        "name": "Coconut Chutney",
+        "original_name": "Fresh coconut chutney",
+        "category": "Condiments",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 2.8,
+            "carbohydrate_g": 15,
+            "energy_kcal": 180
+        }
+    },
+    {
+        "name": "Peanut Chutney",
+        "original_name": "Ground peanut chutney",
+        "category": "Condiments",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 10.0,
+            "carbohydrate_g": 14,
+            "energy_kcal": 240
+        }
+    },
+    {
+        "name": "Tomato Chutney",
+        "original_name": "Cooked tomato chutney",
+        "category": "Condiments",
+        "state": "Cooked",
+        "nutrients": {
+            "protein_g": 1.8,
+            "carbohydrate_g": 8,
+            "energy_kcal": 60
+        }
+    },
+    {
+        "name": "Mint Coriander Chutney",
+        "original_name": "Mint and coriander chutney",
+        "category": "Condiments",
+        "state": "Fresh",
+        "nutrients": {
+            "protein_g": 2.0,
+            "carbohydrate_g": 6,
+            "energy_kcal": 45
+        }
+    },
+    {
+        "name": "Suji Halwa",
+        "original_name": "Semolina sweet pudding",
+        "category": "Sweets",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 50,
+            "energy_kcal": 320
+        }
+    },
+    {
+        "name": "Atta Halwa",
+        "original_name": "Whole wheat flour halwa",
+        "category": "Sweets",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 5.0,
+            "carbohydrate_g": 52,
+            "energy_kcal": 330
+        }
+    },
+    {
+        "name": "Besan Halwa",
+        "original_name": "Gram flour halwa",
+        "category": "Sweets",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 6.5,
+            "carbohydrate_g": 48,
+            "energy_kcal": 350
+        }
+    },
+    {
+        "name": "Moong Dal Halwa",
+        "original_name": "Green gram halwa",
+        "category": "Sweets",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 7.0,
+            "carbohydrate_g": 45,
+            "energy_kcal": 360
+        }
+    },
+    {
+        "name": "Kheer (Rice)",
+        "original_name": "Rice pudding",
+        "category": "Sweets",
+        "state": "Prepared",
+        "nutrients": {
+            "protein_g": 4.0,
+            "carbohydrate_g": 22,
+            "energy_kcal": 140
+        }
+    }
+]

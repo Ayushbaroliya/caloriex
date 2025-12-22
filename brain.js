@@ -13,9 +13,11 @@ const resProtein = document.querySelector("#resProtein");
 const resCarbs = document.querySelector("#resCarbs");
 const resSource = document.querySelector("#resSource");
 
+// Backend URL
+const BACKEND_URL = "http://localhost:5000";
+
 let selectedType = "raw";
 let indianFoods = [];
-const USDA_KEY = "c1QArOcc4SYlCqvg73ZsTG9Cu6nTc0MtOMazf4iv"; 
 
 // 1. Load Data
 fetch("data/indian_food_unique_clean.json")
@@ -48,7 +50,7 @@ form.addEventListener("submit", async (e) => {
 
   if (!food || !quantity) return;
 
- 
+  // First check local database
   const foundFood = indianFoods.find(item => {
     const itemName = (item.name || "").toLowerCase();
     const itemState = (item.state || "").toLowerCase();
@@ -59,7 +61,7 @@ form.addEventListener("submit", async (e) => {
   if (foundFood) {
     displayResult(foundFood, quantity, "IFCT 2017 (India)");
   } else {
-  
+    // If not found locally, query backend USDA API
     resSource.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Fetching from USDA...';
     resultCard.classList.remove("hidden");
     await fetchFromUSDA(food, quantity);
@@ -86,17 +88,18 @@ function displayResult(item, quantity, source) {
 }
 
 async function fetchFromUSDA(query, quantity) {
-
   const searchTerm = selectedType === "cooked" ? `${query} cooked` : query;
-  const api = `https://api.nal.usda.gov/fdc/v1/foods/search?query=${searchTerm}&pageSize=1&api_key=${USDA_KEY}`;
   
   try {
-    const res = await fetch(api);
-    const data = await res.json();
+    // Call backend proxy
+    const response = await fetch(
+      `${BACKEND_URL}/api/search-food?query=${encodeURIComponent(searchTerm)}&pageSize=1`
+    );
 
-    if (!data.foods || data.foods.length === 0) {
+    const data = await response.json();
+
+    if (!response.ok || !data.foods || data.foods.length === 0) {
       resSource.textContent = "Food not found in any database.";
-      // Clear values if not found
       resCalories.textContent = "0";
       resProtein.textContent = "0g";
       resCarbs.textContent = "0g";
@@ -106,7 +109,6 @@ async function fetchFromUSDA(query, quantity) {
 
     const foodItem = data.foods[0];
     const getNutrient = (id) => {
-      // Helper to safely find nutrient by ID
       const n = foodItem.foodNutrients.find(x => x.nutrientId === id);
       return n ? n.value : 0;
     };
@@ -124,10 +126,7 @@ async function fetchFromUSDA(query, quantity) {
     displayResult(standardizedItem, quantity, "USDA Database");
 
   } catch (err) {
-    console.error(err);
-    resSource.textContent = "Error fetching data.";
+    console.error("Error:", err);
+    resSource.textContent = "Error fetching data. Is backend running?";
   }
 }
-
-
-// Note: mobile menu logic moved to `nav.js` so it can be shared across pages.

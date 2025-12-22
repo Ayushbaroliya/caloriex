@@ -1,5 +1,7 @@
-
 let messageInput, sendButton, chatBox;
+
+// Backend URL
+const BACKEND_URL = "http://localhost:5000";
 
 // Wait for DOM to be ready
 document.addEventListener('DOMContentLoaded', initAIChat);
@@ -23,9 +25,6 @@ function initAIChat() {
         setupAIContext();
     }
 }
-
-// 🔴 YOUR API KEY (Keep this secret!)
-const API_KEY = "AIzaSyATt_vklJArcTskeJpcPLvI6fNLjOk6eKA"; 
 
 // This list stores the conversation so the AI remembers what we talked about
 let conversationHistory = [];
@@ -103,14 +102,15 @@ async function sendMessage() {
     loadingBubble.className = 'ai-message';
     loadingBubble.innerHTML = '<em>Thinking...</em>';
     chatBox.appendChild(loadingBubble);
-    chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom
+    chatBox.scrollTop = chatBox.scrollHeight;
 
     try {
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`, {
+        // Call backend proxy instead of Gemini API directly
+        const response = await fetch(`${BACKEND_URL}/api/ai-chat`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-                contents: conversationHistory
+                conversationHistory: conversationHistory
             })
         });
 
@@ -119,6 +119,14 @@ async function sendMessage() {
         // Remove the "Thinking..." bubble
         if (loadingBubble.parentNode) {
             chatBox.removeChild(loadingBubble);
+        }
+
+        if (!response.ok) {
+            addMessageToScreen(`Error: ${data.error || 'Failed to get response'}`, '');
+            messageInput.disabled = false;
+            sendButton.disabled = false;
+            messageInput.focus();
+            return;
         }
 
         if (data.candidates && data.candidates.length > 0) {
@@ -150,7 +158,7 @@ async function sendMessage() {
         if (loadingBubble.parentNode) {
             chatBox.removeChild(loadingBubble);
         }
-        addMessageToScreen("❌ Error: Please check your internet connection and try again.", '');
+        addMessageToScreen("⚠ Error: Please check if backend server is running on " + BACKEND_URL, '');
     }
 
     // Re-enable the input box

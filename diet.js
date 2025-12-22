@@ -8,10 +8,10 @@ const activityLevelInput = document.getElementById("activityLevel");
 const resultDiv = document.getElementById("dietResult");
 const dietPlanContainer = document.getElementById("dietPlanContainer");
 
-// 🔴 PASTE YOUR GEMINI API KEY HERE
-const API_KEY = "AIzaSyATt_vklJArcTskeJpcPLvI6fNLjOk6eKA"; 
+// Backend URL - Change this to your server URL (localhost:5000 for development, your domain for production)
+const BACKEND_URL = "http://localhost:5000";
 
-form.addEventListener("submit", async function(event) { // Added 'async' keyword
+form.addEventListener("submit", async function(event) {
   event.preventDefault();
 
   const age = parseInt(ageInput.value) || 0;
@@ -46,36 +46,37 @@ form.addEventListener("submit", async function(event) { // Added 'async' keyword
   // Calculate Macros (40% Carbs, 30% Protein, 30% Fat)
   const proteinCalories = calories * 0.30;
   const carbCalories = calories * 0.40;
-  const fatCalories = calories * 0.30; 
+  const fatCalories = calories * 0.30;
 
   const protein = (proteinCalories / 4).toFixed(1);
   const carbs = (carbCalories / 4).toFixed(1);
-  const fat = (fatCalories / 9).toFixed(1); // 9 cal per gram for fat
+  const fat = (fatCalories / 9).toFixed(1);
 
   // Update Result Display
   document.getElementById("calorieGoal").textContent = "Calories: " + calories.toFixed(0) + " kcal";
   document.getElementById("proteinGoal").textContent = "Protein: " + protein + " g";
   document.getElementById("carbGoal").textContent = "Carbs: " + carbs + " g";
   
-  // Create Fat element if it doesn't exist in HTML, or update if you added it
   const fatEl = document.getElementById("fatGoal");
   if(fatEl) fatEl.textContent = "Fat: " + fat + " g";
 
   // Show the results div
   resultDiv.style.display = "block";
 
-  // Store metrics (keeping your original localStorage logic)
+  // Store metrics
   localStorage.setItem("userMetrics", JSON.stringify({
     age, gender, weight, heightCm, bmi, bmr,
     dailyCalories: calories,
     dailyProtein: protein,
     dailyCarbs: carbs,
     dailyFat: fat,
-    activityLevel
+    activityLevel,
+    heightFeet: feet,
+    heightInches: inches
   }));
 
   // ==========================================
-  // GEMINI API CALL STARTS HERE
+  // CALL BACKEND PROXY
   // ==========================================
   dietPlanContainer.innerHTML = "<p><i>Generating your personalized meal plan...</i></p>";
 
@@ -90,18 +91,20 @@ form.addEventListener("submit", async function(event) { // Added 'async' keyword
   `;
 
   try {
- 
-const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`, {
-  
+    const response = await fetch(`${BACKEND_URL}/api/generate-meal-plan`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+      body: JSON.stringify({ prompt: prompt })
     });
 
     const data = await response.json();
     
+    if (!response.ok) {
+      dietPlanContainer.innerHTML = `<p>Error: ${data.error || 'Failed to generate plan'}</p>`;
+      return;
+    }
+
     if (data.candidates && data.candidates.length > 0) {
-      // Get the text and remove any ```html formatting if Gemini adds it
       let aiText = data.candidates[0].content.parts[0].text;
       aiText = aiText.replace(/```html/g, "").replace(/```/g, "");
       
@@ -111,6 +114,6 @@ const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/m
     }
   } catch (error) {
     console.error("API Error:", error);
-    dietPlanContainer.innerHTML = "<p>Error connecting to AI. Check your internet or API key.</p>";
+    dietPlanContainer.innerHTML = "<p>Error connecting to server. Check if backend is running on " + BACKEND_URL + "</p>";
   }
 });
