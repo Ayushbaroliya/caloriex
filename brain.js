@@ -21,7 +21,7 @@ let indianFoods = [];
 
 // 1. Load Data
 // Ensure this path is correct
-fetch("data/indian_food_unique_clean.json")
+fetch("data/indian_food_final.json")
   .then(res => res.json())
   .then(data => {
     indianFoods = data;
