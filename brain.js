@@ -14,12 +14,13 @@ const resCarbs = document.querySelector("#resCarbs");
 const resSource = document.querySelector("#resSource");
 
 // Backend URL
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "";
 
 let selectedType = "raw";
 let indianFoods = [];
 
 // 1. Load Data
+// Ensure this path is correct
 fetch("data/indian_food_unique_clean.json")
   .then(res => res.json())
   .then(data => {

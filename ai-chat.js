@@ -1,7 +1,7 @@
 let messageInput, sendButton, chatBox;
 
 // Backend URL
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "";
 
 // Wait for DOM to be ready
 document.addEventListener('DOMContentLoaded', initAIChat);
