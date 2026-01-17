@@ -18,6 +18,17 @@ app.get("/", (req, res) => {
     res.sendFile("index.html", { root: "public" });
 });
 
+// Explicit Routes for other pages (in case simple static serving fails or for clean URLs)
+app.get("/bmi", (req, res) => {
+    res.sendFile("bmi.html", { root: "public" });
+});
+app.get("/ai-nutritionist", (req, res) => {
+    res.sendFile("ai-nutritionist.html", { root: "public" });
+});
+app.get("/dietPlan", (req, res) => {
+    res.sendFile("dietPlan.html", { root: "public" });
+});
+
 // Route: Search Food
 app.get("/api/search-food", async (req, res) => {
     const { query } = req.query;
