@@ -64,7 +64,7 @@ app.post("/api/generate-meal-plan", async (req, res) => {
     try {
         const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
         const model = genAI.getGenerativeModel({
-            model: "models/gemini-flash-latest"
+            model: "gemini-1.5-flash"
         });
 
         const result = await model.generateContent(prompt);
@@ -97,7 +97,7 @@ app.post("/api/ai-chat", async (req, res) => {
     try {
         const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
         const model = genAI.getGenerativeModel({
-            model: "models/gemini-flash-latest"
+            model: "gemini-1.5-flash"
         });
 
         const history = conversationHistory.map(msg => ({
