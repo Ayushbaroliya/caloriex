@@ -9,7 +9,9 @@ const resultDiv = document.getElementById("dietResult");
 const dietPlanContainer = document.getElementById("dietPlanContainer");
 
 // Backend URL - Change this to your server URL (localhost:5000 for development, your domain for production)
-const BACKEND_URL = ""; // Relative URL for production
+// Backend URL
+const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const BACKEND_URL = isLocalhost ? 'http://localhost:5000' : '';
 
 form.addEventListener("submit", async function (event) {
   event.preventDefault();
@@ -100,7 +102,11 @@ form.addEventListener("submit", async function (event) {
     const data = await response.json();
 
     if (!response.ok) {
-      dietPlanContainer.innerHTML = `<p>Error: ${data.error || 'Failed to generate plan'}</p>`;
+      let errorMsg = data.error || 'Failed to generate plan';
+      if (data.details) {
+        errorMsg += `<br><small>${data.details}</small>`;
+      }
+      dietPlanContainer.innerHTML = `<p class="error-text">Error: ${errorMsg}</p>`;
       return;
     }
 
@@ -114,6 +120,6 @@ form.addEventListener("submit", async function (event) {
     }
   } catch (error) {
     console.error("API Error:", error);
-    dietPlanContainer.innerHTML = "<p>Error connecting to server. Check if backend is running on " + BACKEND_URL + "</p>";
+    dietPlanContainer.innerHTML = `<p>Error connecting to server. Check if backend is running on ${BACKEND_URL || 'localhost'}.<br>Details: ${error.message}</p>`;
   }
 });

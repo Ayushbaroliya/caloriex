@@ -1,7 +1,9 @@
 let messageInput, sendButton, chatBox;
 
 // Backend URL
-const BACKEND_URL = ""; // Relative URL for production
+// Backend URL
+const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const BACKEND_URL = isLocalhost ? 'http://localhost:5000' : '';
 
 // Wait for DOM to be ready
 document.addEventListener('DOMContentLoaded', initAIChat);
@@ -122,7 +124,11 @@ async function sendMessage() {
         }
 
         if (!response.ok) {
-            addMessageToScreen(`Error: ${data.error || 'Failed to get response'}`, '');
+            let errorMsg = data.error || 'Failed to get response';
+            if (data.details) {
+                errorMsg += `: ${data.details}`;
+            }
+            addMessageToScreen(`Error: ${errorMsg}`, '');
             messageInput.disabled = false;
             sendButton.disabled = false;
             messageInput.focus();
@@ -158,7 +164,7 @@ async function sendMessage() {
         if (loadingBubble.parentNode) {
             chatBox.removeChild(loadingBubble);
         }
-        addMessageToScreen("⚠ Error: Please check if backend server is running on " + BACKEND_URL, '');
+        addMessageToScreen(`⚠ Error: Please check if backend server is running on ${BACKEND_URL || 'localhost'}. Details: ${error.message}`, '');
     }
 
     // Re-enable the input box
